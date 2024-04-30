@@ -1,0 +1,6548 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/server/game/game.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"include",
+			"target_include_directories",
+			"target_precompile_headers",
+			"add_cxx_pch"
+		],
+		"files" : 
+		[
+			"src/server/game/CMakeLists.txt",
+			"src/cmake/showoptions.cmake",
+			"CMakeLists.txt",
+			"src/cmake/macros/FindPCHSupport.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 120,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 136,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 10
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 /bigobj -MDd"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4351"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4091"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34100"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34101"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34189"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34389"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4996"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4985"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4619"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4512"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4263"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4264"
+				},
+				{
+					"fragment" : "-std:c++20"
+				},
+				{
+					"fragment" : "\"/YcC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/game/CMakeFiles/game.dir/cmake_pch.hxx\" \"/FpC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/game/CMakeFiles/game.dir/./cmake_pch.cxx.pch\" \"/FIC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/game/CMakeFiles/game.dir/cmake_pch.hxx\""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "AC_HAS_BROKEN_WSTRING_REGEX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ASIO_NO_DEPRECATED"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_BIND_NO_PLACEHOLDERS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CHRONO_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_REGEX_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SERIALIZATION_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SYSTEM_USE_UTF8"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ENABLE_VMAP_CHECKS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_CONSTEVAL="
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_LOCALE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_SSE2"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SFMT_MEXP=19937"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_BUILD_DIRECTIVE=\"Debug\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_CONF_DIR=\"C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/install/x64-Debug\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_NONSTDC_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_WIN64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/game"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/CoreAI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/NpcBots"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/NpcBots/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/ScriptedAI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/SmartScripts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Accounts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Achievements"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Addons"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/ArenaSpectator"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AuctionHouse"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Autobroadcast"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlefield"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlefield/Zones"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlegrounds"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlegrounds/Zones"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Cache"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Calendar"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat/Channels"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat/ChatCommands"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Combat"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Conditions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/DungeonFinding"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Corpse"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Creature"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/DynamicObject"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/GameObject"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Item"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Item/Container"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Object"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Object/Updates"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Pet"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Player"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Totem"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Transport"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Unit"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Vehicle"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Events"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Globals"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids/Cells"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids/Notifiers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Groups"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Guilds"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Handlers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Instances"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Loot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Mails"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Maps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Misc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Miscellaneous"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Modules"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Motd"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/MovementGenerators"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/Spline"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/Waypoints"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/OutdoorPvP"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Petitions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Pools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Quests"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Reputation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Scripting"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Scripting/ScriptDefines"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server/Packets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server/Protocol"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Skills"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Spells"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Spells/Auras"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Texts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Tickets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Time"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Tools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Warden"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Warden/Modules"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Weather"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/World"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Network"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Packets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Realms"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Secrets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Database"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Database/Implementation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Logging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Updater"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Asio"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Management"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Maps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Models"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Configuration"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography/Authentication"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Debugging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic/LinkedReference"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Encoding"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/IPLocation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Logging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Metric"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Navigation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Threading"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Utilities"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/local/boost_1_81_0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/argon2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/SFMT"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/utf8cpp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/fmt/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/g3dlite/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/zlib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/recastnavigation/Detour/Include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 11,
+					"header" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/PrecompiledHeaders/gamePCH.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 /bigobj -MDd"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4351"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4091"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34100"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34101"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34189"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34389"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4996"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4985"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4619"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4512"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4263"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4264"
+				},
+				{
+					"fragment" : "-std:c++20"
+				},
+				{
+					"fragment" : "\"/YuC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/game/CMakeFiles/game.dir/cmake_pch.hxx\" \"/FpC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/game/CMakeFiles/game.dir/./cmake_pch.cxx.pch\" \"/FIC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/game/CMakeFiles/game.dir/cmake_pch.hxx\""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "AC_HAS_BROKEN_WSTRING_REGEX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ASIO_NO_DEPRECATED"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_BIND_NO_PLACEHOLDERS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CHRONO_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_REGEX_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SERIALIZATION_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SYSTEM_USE_UTF8"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ENABLE_VMAP_CHECKS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_CONSTEVAL="
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_LOCALE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_SSE2"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SFMT_MEXP=19937"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_BUILD_DIRECTIVE=\"Debug\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_CONF_DIR=\"C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/install/x64-Debug\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_NONSTDC_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_WIN64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/game"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/CoreAI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/NpcBots"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/NpcBots/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/ScriptedAI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/SmartScripts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Accounts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Achievements"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Addons"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/ArenaSpectator"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AuctionHouse"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Autobroadcast"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlefield"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlefield/Zones"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlegrounds"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlegrounds/Zones"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Cache"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Calendar"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat/Channels"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat/ChatCommands"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Combat"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Conditions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/DungeonFinding"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Corpse"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Creature"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/DynamicObject"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/GameObject"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Item"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Item/Container"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Object"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Object/Updates"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Pet"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Player"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Totem"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Transport"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Unit"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Vehicle"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Events"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Globals"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids/Cells"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids/Notifiers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Groups"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Guilds"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Handlers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Instances"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Loot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Mails"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Maps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Misc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Miscellaneous"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Modules"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Motd"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/MovementGenerators"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/Spline"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/Waypoints"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/OutdoorPvP"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Petitions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Pools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Quests"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Reputation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Scripting"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Scripting/ScriptDefines"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server/Packets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server/Protocol"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Skills"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Spells"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Spells/Auras"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Texts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Tickets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Time"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Tools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Warden"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Warden/Modules"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Weather"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/World"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Network"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Packets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Realms"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Secrets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Database"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Database/Implementation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Logging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Updater"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Asio"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Management"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Maps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Models"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Configuration"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography/Authentication"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Debugging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic/LinkedReference"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Encoding"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/IPLocation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Logging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Metric"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Navigation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Threading"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Utilities"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/local/boost_1_81_0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/argon2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/SFMT"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/utf8cpp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/fmt/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/g3dlite/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/zlib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/recastnavigation/Detour/Include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 11,
+					"header" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/PrecompiledHeaders/gamePCH.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				5,
+				7,
+				10,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				29,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				67,
+				69,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				114,
+				116,
+				118,
+				121,
+				123,
+				125,
+				127,
+				129,
+				132,
+				134,
+				135,
+				137,
+				139,
+				141,
+				143,
+				145,
+				147,
+				149,
+				151,
+				153,
+				155,
+				157,
+				159,
+				161,
+				163,
+				165,
+				166,
+				168,
+				170,
+				172,
+				173,
+				175,
+				177,
+				179,
+				181,
+				183,
+				186,
+				188,
+				190,
+				192,
+				195,
+				197,
+				199,
+				201,
+				203,
+				205,
+				207,
+				209,
+				212,
+				214,
+				216,
+				218,
+				219,
+				221,
+				224,
+				226,
+				229,
+				230,
+				232,
+				235,
+				237,
+				239,
+				241,
+				243,
+				247,
+				250,
+				252,
+				254,
+				256,
+				257,
+				258,
+				259,
+				261,
+				262,
+				264,
+				265,
+				267,
+				269,
+				271,
+				273,
+				274,
+				276,
+				277,
+				280,
+				282,
+				284,
+				292,
+				296,
+				299,
+				301,
+				304,
+				306,
+				308,
+				310,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				348,
+				350,
+				352,
+				354,
+				356,
+				358,
+				360,
+				362,
+				366,
+				368,
+				371,
+				373,
+				375,
+				377,
+				379,
+				382,
+				384,
+				387,
+				389,
+				391,
+				393,
+				395,
+				397,
+				399,
+				401,
+				403,
+				405,
+				407,
+				409,
+				411,
+				413,
+				416,
+				419,
+				422,
+				423,
+				426,
+				428,
+				430,
+				432,
+				434,
+				436,
+				438,
+				439,
+				441,
+				442,
+				445,
+				448,
+				450,
+				452,
+				454,
+				456,
+				458,
+				460,
+				462,
+				464,
+				466,
+				469,
+				471,
+				473,
+				475,
+				477,
+				479,
+				481,
+				483,
+				485,
+				487,
+				489,
+				491,
+				493,
+				495,
+				497,
+				499,
+				501,
+				503,
+				505,
+				507,
+				510,
+				512,
+				514,
+				516,
+				518,
+				520,
+				522,
+				524,
+				526,
+				528,
+				530,
+				532,
+				534,
+				536,
+				538,
+				540,
+				542,
+				544,
+				547,
+				549,
+				551,
+				554,
+				556,
+				558,
+				560,
+				562,
+				564,
+				566,
+				568,
+				570,
+				572,
+				574,
+				576,
+				578,
+				580,
+				583,
+				585,
+				587,
+				590,
+				591,
+				593,
+				594,
+				596,
+				599,
+				601,
+				603,
+				605,
+				607,
+				609,
+				611,
+				613,
+				615,
+				617,
+				619,
+				621,
+				623,
+				625,
+				627,
+				630,
+				632,
+				635
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "argon2::@c072c1a31b0c98ace58a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sfmt::@1a52b9e852e5a484adf5"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "fmt::@c1a9231e0206e99398e7"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "zlib::@a10f134e8da49500ac3b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Detour::@6e63253b01af92081277"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "g3dlib::@50fdfca79ef561a7d74c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "common::@af79f3804eddddbfa7f1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "revision.h::@c11e494196f9756d45d4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "database::@f0cb456b49017b16757b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "shared::@c6c548c1b6416905cf8a"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "server"
+	},
+	"id" : "game::@e4319039333d31efef86",
+	"name" : "game",
+	"nameOnDisk" : "game.lib",
+	"paths" : 
+	{
+		"build" : "src/server/game",
+		"source" : "src/server/game"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "AI",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"name" : "AI\\CoreAI",
+			"sourceIndexes" : 
+			[
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26
+			]
+		},
+		{
+			"name" : "AI\\NpcBots",
+			"sourceIndexes" : 
+			[
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83
+			]
+		},
+		{
+			"name" : "AI\\NpcBots\\lib",
+			"sourceIndexes" : 
+			[
+				84
+			]
+		},
+		{
+			"name" : "AI\\ScriptedAI",
+			"sourceIndexes" : 
+			[
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92
+			]
+		},
+		{
+			"name" : "AI\\SmartScripts",
+			"sourceIndexes" : 
+			[
+				93,
+				94,
+				95,
+				96,
+				97,
+				98
+			]
+		},
+		{
+			"name" : "Accounts",
+			"sourceIndexes" : 
+			[
+				99,
+				100
+			]
+		},
+		{
+			"name" : "Achievements",
+			"sourceIndexes" : 
+			[
+				101,
+				102
+			]
+		},
+		{
+			"name" : "Addons",
+			"sourceIndexes" : 
+			[
+				103,
+				104
+			]
+		},
+		{
+			"name" : "ArenaSpectator",
+			"sourceIndexes" : 
+			[
+				105,
+				106
+			]
+		},
+		{
+			"name" : "AuctionHouse",
+			"sourceIndexes" : 
+			[
+				107,
+				108
+			]
+		},
+		{
+			"name" : "Autobroadcast",
+			"sourceIndexes" : 
+			[
+				109,
+				110
+			]
+		},
+		{
+			"name" : "Battlefield",
+			"sourceIndexes" : 
+			[
+				111,
+				112,
+				113,
+				114,
+				115
+			]
+		},
+		{
+			"name" : "Battlefield\\Zones",
+			"sourceIndexes" : 
+			[
+				116,
+				117
+			]
+		},
+		{
+			"name" : "Battlegrounds",
+			"sourceIndexes" : 
+			[
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134
+			]
+		},
+		{
+			"name" : "Battlegrounds\\Zones",
+			"sourceIndexes" : 
+			[
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156
+			]
+		},
+		{
+			"name" : "Cache",
+			"sourceIndexes" : 
+			[
+				157,
+				158,
+				159,
+				160
+			]
+		},
+		{
+			"name" : "Calendar",
+			"sourceIndexes" : 
+			[
+				161,
+				162
+			]
+		},
+		{
+			"name" : "Chat",
+			"sourceIndexes" : 
+			[
+				163,
+				164,
+				165,
+				166,
+				167
+			]
+		},
+		{
+			"name" : "Chat\\Channels",
+			"sourceIndexes" : 
+			[
+				168,
+				169,
+				170,
+				171,
+				172
+			]
+		},
+		{
+			"name" : "Chat\\ChatCommands",
+			"sourceIndexes" : 
+			[
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180
+			]
+		},
+		{
+			"name" : "Combat",
+			"sourceIndexes" : 
+			[
+				181,
+				182,
+				183,
+				184,
+				185
+			]
+		},
+		{
+			"name" : "Conditions",
+			"sourceIndexes" : 
+			[
+				186,
+				187,
+				188,
+				189
+			]
+		},
+		{
+			"name" : "DataStores",
+			"sourceIndexes" : 
+			[
+				190,
+				191,
+				192,
+				193,
+				194
+			]
+		},
+		{
+			"name" : "DungeonFinding",
+			"sourceIndexes" : 
+			[
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206
+			]
+		},
+		{
+			"name" : "Entities\\Corpse",
+			"sourceIndexes" : 
+			[
+				207,
+				208
+			]
+		},
+		{
+			"name" : "Entities\\Creature",
+			"sourceIndexes" : 
+			[
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218
+			]
+		},
+		{
+			"name" : "Entities\\DynamicObject",
+			"sourceIndexes" : 
+			[
+				219,
+				220
+			]
+		},
+		{
+			"name" : "Entities\\GameObject",
+			"sourceIndexes" : 
+			[
+				221,
+				222,
+				223
+			]
+		},
+		{
+			"name" : "Entities\\Item",
+			"sourceIndexes" : 
+			[
+				224,
+				225,
+				226,
+				227,
+				228,
+				229
+			]
+		},
+		{
+			"name" : "Entities\\Item\\Container",
+			"sourceIndexes" : 
+			[
+				230,
+				231
+			]
+		},
+		{
+			"name" : "Entities\\Object",
+			"sourceIndexes" : 
+			[
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240
+			]
+		},
+		{
+			"name" : "Entities\\Object\\Updates",
+			"sourceIndexes" : 
+			[
+				241,
+				242,
+				243,
+				244,
+				245,
+				246
+			]
+		},
+		{
+			"name" : "Entities\\Pet",
+			"sourceIndexes" : 
+			[
+				247,
+				248,
+				249
+			]
+		},
+		{
+			"name" : "Entities\\Player",
+			"sourceIndexes" : 
+			[
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268
+			]
+		},
+		{
+			"name" : "Entities\\Totem",
+			"sourceIndexes" : 
+			[
+				269,
+				270
+			]
+		},
+		{
+			"name" : "Entities\\Transport",
+			"sourceIndexes" : 
+			[
+				271,
+				272
+			]
+		},
+		{
+			"name" : "Entities\\Unit",
+			"sourceIndexes" : 
+			[
+				273,
+				274,
+				275,
+				276
+			]
+		},
+		{
+			"name" : "Entities\\Vehicle",
+			"sourceIndexes" : 
+			[
+				277,
+				278,
+				279
+			]
+		},
+		{
+			"name" : "Events",
+			"sourceIndexes" : 
+			[
+				280,
+				281
+			]
+		},
+		{
+			"name" : "Globals",
+			"sourceIndexes" : 
+			[
+				282,
+				283,
+				284,
+				285
+			]
+		},
+		{
+			"name" : "Grids",
+			"sourceIndexes" : 
+			[
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293
+			]
+		},
+		{
+			"name" : "Grids\\Cells",
+			"sourceIndexes" : 
+			[
+				294,
+				295
+			]
+		},
+		{
+			"name" : "Grids\\Notifiers",
+			"sourceIndexes" : 
+			[
+				296,
+				297,
+				298
+			]
+		},
+		{
+			"name" : "Groups",
+			"sourceIndexes" : 
+			[
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305
+			]
+		},
+		{
+			"name" : "Guilds",
+			"sourceIndexes" : 
+			[
+				306,
+				307,
+				308,
+				309
+			]
+		},
+		{
+			"name" : "Handlers",
+			"sourceIndexes" : 
+			[
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345
+			]
+		},
+		{
+			"name" : "Instances",
+			"sourceIndexes" : 
+			[
+				346,
+				347,
+				348,
+				349
+			]
+		},
+		{
+			"name" : "Loot",
+			"sourceIndexes" : 
+			[
+				350,
+				351,
+				352,
+				353
+			]
+		},
+		{
+			"name" : "Mails",
+			"sourceIndexes" : 
+			[
+				354,
+				355
+			]
+		},
+		{
+			"name" : "Maps",
+			"sourceIndexes" : 
+			[
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370
+			]
+		},
+		{
+			"name" : "Misc",
+			"sourceIndexes" : 
+			[
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378
+			]
+		},
+		{
+			"name" : "Miscellaneous",
+			"sourceIndexes" : 
+			[
+				379,
+				380,
+				381
+			]
+		},
+		{
+			"name" : "Modules",
+			"sourceIndexes" : 
+			[
+				382,
+				383
+			]
+		},
+		{
+			"name" : "Motd",
+			"sourceIndexes" : 
+			[
+				384,
+				385
+			]
+		},
+		{
+			"name" : "Movement",
+			"sourceIndexes" : 
+			[
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392
+			]
+		},
+		{
+			"name" : "Movement\\MovementGenerators",
+			"sourceIndexes" : 
+			[
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412
+			]
+		},
+		{
+			"name" : "Movement\\Spline",
+			"sourceIndexes" : 
+			[
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424,
+				425
+			]
+		},
+		{
+			"name" : "Movement\\Waypoints",
+			"sourceIndexes" : 
+			[
+				426,
+				427
+			]
+		},
+		{
+			"name" : "OutdoorPvP",
+			"sourceIndexes" : 
+			[
+				428,
+				429,
+				430,
+				431
+			]
+		},
+		{
+			"name" : "Petitions",
+			"sourceIndexes" : 
+			[
+				432,
+				433
+			]
+		},
+		{
+			"name" : "Pools",
+			"sourceIndexes" : 
+			[
+				434,
+				435
+			]
+		},
+		{
+			"name" : "Quests",
+			"sourceIndexes" : 
+			[
+				436,
+				437,
+				438
+			]
+		},
+		{
+			"name" : "Reputation",
+			"sourceIndexes" : 
+			[
+				439,
+				440
+			]
+		},
+		{
+			"name" : "Scripting",
+			"sourceIndexes" : 
+			[
+				441,
+				442,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449
+			]
+		},
+		{
+			"name" : "Scripting\\ScriptDefines",
+			"sourceIndexes" : 
+			[
+				450,
+				451,
+				452,
+				453,
+				454,
+				455,
+				456,
+				457,
+				458,
+				459,
+				460,
+				461,
+				462,
+				463,
+				464,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				479,
+				480,
+				481,
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				488,
+				489,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				499,
+				500,
+				501,
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				525,
+				526,
+				527,
+				528,
+				529,
+				530,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				543
+			]
+		},
+		{
+			"name" : "Server",
+			"sourceIndexes" : 
+			[
+				544,
+				545,
+				546,
+				547,
+				548,
+				549,
+				550,
+				551,
+				552
+			]
+		},
+		{
+			"name" : "Server\\Packets",
+			"sourceIndexes" : 
+			[
+				553,
+				554,
+				555,
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				562,
+				563,
+				564,
+				565,
+				566,
+				567,
+				568,
+				569,
+				570,
+				571,
+				572,
+				573,
+				574,
+				575,
+				576,
+				577
+			]
+		},
+		{
+			"name" : "Server\\Protocol",
+			"sourceIndexes" : 
+			[
+				578,
+				579,
+				580,
+				581,
+				582
+			]
+		},
+		{
+			"name" : "Skills",
+			"sourceIndexes" : 
+			[
+				583,
+				584,
+				585,
+				586
+			]
+		},
+		{
+			"name" : "Spells",
+			"sourceIndexes" : 
+			[
+				587,
+				588,
+				589,
+				590,
+				591,
+				592,
+				593,
+				594,
+				595,
+				596,
+				597
+			]
+		},
+		{
+			"name" : "Spells\\Auras",
+			"sourceIndexes" : 
+			[
+				598,
+				599,
+				600,
+				601,
+				602
+			]
+		},
+		{
+			"name" : "Texts",
+			"sourceIndexes" : 
+			[
+				603,
+				604,
+				605,
+				606
+			]
+		},
+		{
+			"name" : "Tickets",
+			"sourceIndexes" : 
+			[
+				607,
+				608
+			]
+		},
+		{
+			"name" : "Time",
+			"sourceIndexes" : 
+			[
+				609,
+				610,
+				611,
+				612
+			]
+		},
+		{
+			"name" : "Tools",
+			"sourceIndexes" : 
+			[
+				613,
+				614,
+				615,
+				616
+			]
+		},
+		{
+			"name" : "Warden",
+			"sourceIndexes" : 
+			[
+				617,
+				618,
+				619,
+				620,
+				621,
+				622,
+				623,
+				624,
+				625,
+				626,
+				627
+			]
+		},
+		{
+			"name" : "Warden\\Modules",
+			"sourceIndexes" : 
+			[
+				628,
+				629
+			]
+		},
+		{
+			"name" : "Weather",
+			"sourceIndexes" : 
+			[
+				630,
+				631,
+				632,
+				633
+			]
+		},
+		{
+			"name" : "World",
+			"sourceIndexes" : 
+			[
+				634,
+				635,
+				636
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				637
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/src/server/game/CMakeFiles/game.dir/cmake_pch.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/CreatureAI.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/CreatureAI.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/CreatureAIFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/CreatureAIImpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/CreatureAIRegistry.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/CreatureAIRegistry.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/CreatureAISelector.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/CreatureAISelector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/GameObjectAIFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/enuminfo_CreatureAI.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/CoreAI/CombatAI.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/CoreAI/CombatAI.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/CoreAI/GameObjectAI.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/CoreAI/GameObjectAI.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/CoreAI/GuardAI.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/CoreAI/GuardAI.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/CoreAI/PassiveAI.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/CoreAI/PassiveAI.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/CoreAI/PetAI.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/CoreAI/PetAI.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/CoreAI/ReactorAI.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/CoreAI/ReactorAI.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/CoreAI/TotemAI.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/CoreAI/TotemAI.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/CoreAI/UnitAI.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/CoreAI/UnitAI.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_Events.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_GridNotifiers.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_ai.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_archmage_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_bm_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_crypt_lord_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_dark_ranger_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_death_knight_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_dreadlord_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_druid_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_hunter_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_mage_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_necromancer_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_paladin_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_priest_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_rogue_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_sea_witch_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_shaman_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_spellbreaker_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_sphynx_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_warlock_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bot_warrior_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/botcommands.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/botcommon.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/botdatamgr.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/botdatamgr.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/botdpstracker.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/botdpstracker.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/botdump.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/botdump.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/botgearscore.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/botgearscore.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/botgiver.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/botgossip.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/botmgr.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/botmgr.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/botspell.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/botspell.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/bottext.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/botwanderful.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/botwanderful.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_ai.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_ai.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_archmage.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_crypt_lord.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_dark_ranger.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_death_knight.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_dreadlord.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_druid.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_hunter.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_mage.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_necromancer.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_priest.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_sea_witch.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_shaman.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/NpcBots/bpet_warlock.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/NpcBots/lib/bottraits.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/ScriptedAI/ScriptedCreature.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/ScriptedAI/ScriptedCreature.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/ScriptedAI/ScriptedEscortAI.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/ScriptedAI/ScriptedEscortAI.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/ScriptedAI/ScriptedFollowerAI.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/ScriptedAI/ScriptedFollowerAI.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/ScriptedAI/ScriptedGossip.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/ScriptedAI/ScriptedGossip.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/SmartScripts/SmartAI.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/SmartScripts/SmartAI.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/SmartScripts/SmartScript.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/SmartScripts/SmartScript.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AI/SmartScripts/SmartScriptMgr.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AI/SmartScripts/SmartScriptMgr.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Accounts/AccountMgr.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Accounts/AccountMgr.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Achievements/AchievementMgr.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Achievements/AchievementMgr.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Addons/AddonMgr.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Addons/AddonMgr.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/ArenaSpectator/ArenaSpectator.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/ArenaSpectator/ArenaSpectator.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/AuctionHouse/AuctionHouseMgr.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/AuctionHouse/AuctionHouseMgr.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Autobroadcast/AutobroadcastMgr.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Autobroadcast/AutobroadcastMgr.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlefield/Battlefield.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlefield/Battlefield.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlefield/BattlefieldHandler.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlefield/BattlefieldMgr.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlefield/BattlefieldMgr.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlefield/Zones/BattlefieldWG.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlefield/Zones/BattlefieldWG.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/Arena.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/Arena.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/ArenaScore.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/ArenaTeam.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/ArenaTeam.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/ArenaTeamMgr.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/ArenaTeamMgr.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/Battleground.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/Battleground.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/BattlegroundMgr.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/BattlegroundMgr.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/BattlegroundQueue.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/BattlegroundQueue.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/BattlegroundScore.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/BattlegroundSpamProtect.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/BattlegroundSpamProtect.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/enuminfo_ArenaTeam.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundAB.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundAB.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundAV.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundAV.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundBE.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundBE.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundDS.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundDS.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundEY.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundEY.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundIC.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundIC.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundNA.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundNA.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundRL.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundRL.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundRV.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundRV.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundSA.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundSA.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundWS.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Battlegrounds/Zones/BattlegroundWS.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Cache/CharacterCache.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Cache/CharacterCache.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Cache/WhoListCacheMgr.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Cache/WhoListCacheMgr.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Calendar/CalendarMgr.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Calendar/CalendarMgr.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Chat/Chat.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Chat/Chat.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Chat/HyperlinkTags.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Chat/Hyperlinks.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Chat/Hyperlinks.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Chat/Channels/Channel.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Chat/Channels/Channel.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Chat/Channels/ChannelMgr.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Chat/Channels/ChannelMgr.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Chat/Channels/enuminfo_Channel.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Chat/ChatCommands/ChatCommand.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Chat/ChatCommands/ChatCommand.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Chat/ChatCommands/ChatCommandArgs.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Chat/ChatCommands/ChatCommandArgs.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Chat/ChatCommands/ChatCommandHelpers.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Chat/ChatCommands/ChatCommandHelpers.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Chat/ChatCommands/ChatCommandTags.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Chat/ChatCommands/ChatCommandTags.h",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Combat/HostileRefMgr.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Combat/HostileRefMgr.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Combat/ThreatMgr.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Combat/ThreatMgr.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Combat/UnitEvents.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Conditions/ConditionMgr.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Conditions/ConditionMgr.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Conditions/DisableMgr.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Conditions/DisableMgr.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/DataStores/DBCStores.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/DataStores/DBCStores.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/DataStores/M2Stores.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/DataStores/M2Stores.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/DataStores/M2Structure.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/DungeonFinding/LFG.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/DungeonFinding/LFG.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/DungeonFinding/LFGGroupData.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/DungeonFinding/LFGGroupData.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/DungeonFinding/LFGMgr.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/DungeonFinding/LFGMgr.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/DungeonFinding/LFGPlayerData.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/DungeonFinding/LFGPlayerData.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/DungeonFinding/LFGQueue.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/DungeonFinding/LFGQueue.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/DungeonFinding/LFGScripts.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/DungeonFinding/LFGScripts.h",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Corpse/Corpse.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Corpse/Corpse.h",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Creature/Creature.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Creature/Creature.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Creature/CreatureData.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Creature/CreatureGroups.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Creature/CreatureGroups.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Creature/GossipDef.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Creature/GossipDef.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Creature/TemporarySummon.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Creature/TemporarySummon.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Creature/enuminfo_CreatureData.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/DynamicObject/DynamicObject.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/DynamicObject/DynamicObject.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/GameObject/GameObject.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/GameObject/GameObject.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/GameObject/GameObjectData.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Item/Item.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Item/Item.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Item/ItemEnchantmentMgr.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Item/ItemEnchantmentMgr.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Item/ItemTemplate.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Item/enuminfo_Item.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Item/Container/Bag.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Item/Container/Bag.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Object/Object.cpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Object/Object.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Object/ObjectDefines.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Object/ObjectGuid.cpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Object/ObjectGuid.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Object/ObjectPosSelector.cpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Object/ObjectPosSelector.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Object/Position.cpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Object/Position.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Object/Updates/UpdateData.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Object/Updates/UpdateData.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Object/Updates/UpdateFieldFlags.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Object/Updates/UpdateFieldFlags.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Object/Updates/UpdateFields.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Object/Updates/UpdateMask.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Pet/Pet.cpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Pet/Pet.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Pet/PetDefines.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Player/CinematicMgr.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Player/CinematicMgr.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Player/KillRewarder.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Player/KillRewarder.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Player/Player.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Player/Player.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Player/PlayerGossip.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Player/PlayerMisc.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Player/PlayerQuest.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Player/PlayerSettings.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Player/PlayerSettings.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Player/PlayerStorage.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Player/PlayerTaxi.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Player/PlayerTaxi.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Player/PlayerUpdates.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Player/SocialMgr.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Player/SocialMgr.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Player/TradeData.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Player/TradeData.h",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Totem/Totem.cpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Totem/Totem.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Transport/Transport.cpp",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Transport/Transport.h",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Unit/StatSystem.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Unit/Unit.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Unit/Unit.h",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Unit/enuminfo_Unit.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Entities/Vehicle/Vehicle.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Vehicle/Vehicle.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Entities/Vehicle/VehicleDefines.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Events/GameEventMgr.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Events/GameEventMgr.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Globals/ObjectAccessor.cpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Globals/ObjectAccessor.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Globals/ObjectMgr.cpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Globals/ObjectMgr.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Grids/Grid.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Grids/GridDefines.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Grids/GridLoader.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Grids/GridRefMgr.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Grids/GridReference.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Grids/NGrid.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Grids/ObjectGridLoader.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Grids/ObjectGridLoader.h",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Grids/Cells/Cell.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Grids/Cells/CellImpl.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Grids/Notifiers/GridNotifiers.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Grids/Notifiers/GridNotifiers.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Grids/Notifiers/GridNotifiersImpl.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Groups/Group.cpp",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Groups/Group.h",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Groups/GroupMgr.cpp",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Groups/GroupMgr.h",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Groups/GroupRefMgr.h",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Groups/GroupReference.cpp",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Groups/GroupReference.h",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Guilds/Guild.cpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Guilds/Guild.h",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Guilds/GuildMgr.cpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Guilds/GuildMgr.h",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/AddonHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Handlers/AddonHandler.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/ArenaTeamHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/AuctionHouseHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/AuthHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/BankHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/BattleGroundHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/CalendarHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/ChannelHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/CharacterHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/ChatHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/CombatHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/DuelHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/GroupHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/GuildHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/ItemHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/LFGHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/LootHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/MailHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/MiscHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/MovementHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/NPCHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Handlers/NPCHandler.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/PetHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/PetitionsHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/QueryHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/QuestHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/ReferAFriendHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/SkillHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/Socialhandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/SpellHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/TaxiHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/TicketHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/TradeHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/VehicleHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Handlers/VoiceChatHandler.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Instances/InstanceSaveMgr.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Instances/InstanceSaveMgr.h",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Instances/InstanceScript.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Instances/InstanceScript.h",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Loot/LootItemStorage.cpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Loot/LootItemStorage.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Loot/LootMgr.cpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Loot/LootMgr.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Mails/Mail.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Mails/Mail.h",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Maps/AreaBoundary.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Maps/AreaBoundary.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Maps/Map.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Maps/Map.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Maps/MapInstanced.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Maps/MapInstanced.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Maps/MapMgr.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Maps/MapMgr.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Maps/MapRefMgr.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Maps/MapReference.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Maps/MapUpdater.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Maps/MapUpdater.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Maps/TransportMgr.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Maps/TransportMgr.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Maps/ZoneScript.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Misc/AsyncAuctionListing.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Misc/AsyncAuctionListing.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Misc/BanMgr.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Misc/BanMgr.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Misc/DynamicVisibility.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Misc/DynamicVisibility.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Misc/GameGraveyard.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Misc/GameGraveyard.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Miscellaneous/Formulas.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Miscellaneous/Formulas.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Miscellaneous/Language.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Modules/ModuleMgr.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Modules/ModuleMgr.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Motd/MotdMgr.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Motd/MotdMgr.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/FollowerRefMgr.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/FollowerReference.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/FollowerReference.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/MotionMaster.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/MotionMaster.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/MovementGenerator.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/MovementGenerator.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/ConfusedMovementGenerator.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/ConfusedMovementGenerator.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/EscortMovementGenerator.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/EscortMovementGenerator.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/FleeingMovementGenerator.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/FleeingMovementGenerator.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/HomeMovementGenerator.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/HomeMovementGenerator.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/IdleMovementGenerator.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/IdleMovementGenerator.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/PathGenerator.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/PathGenerator.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/PointMovementGenerator.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/PointMovementGenerator.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/RandomMovementGenerator.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/RandomMovementGenerator.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/TargetedMovementGenerator.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/TargetedMovementGenerator.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/WaypointMovementGenerator.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/MovementGenerators/WaypointMovementGenerator.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/Spline/MoveSpline.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/Spline/MoveSpline.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/Spline/MoveSplineFlag.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/Spline/MoveSplineInit.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/Spline/MoveSplineInit.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/Spline/MoveSplineInitArgs.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/Spline/MovementPacketBuilder.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/Spline/MovementPacketBuilder.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/Spline/MovementTypedefs.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/Spline/MovementUtil.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/Spline/Spline.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/Spline/Spline.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/Spline/SplineImpl.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Movement/Waypoints/WaypointMgr.cpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Movement/Waypoints/WaypointMgr.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/OutdoorPvP/OutdoorPvP.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/OutdoorPvP/OutdoorPvP.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/OutdoorPvP/OutdoorPvPMgr.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/OutdoorPvP/OutdoorPvPMgr.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Petitions/PetitionMgr.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Petitions/PetitionMgr.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Pools/PoolMgr.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Pools/PoolMgr.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Quests/QuestDef.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Quests/QuestDef.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Quests/enuminfo_QuestDef.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Reputation/ReputationMgr.cpp",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Reputation/ReputationMgr.h",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/MapScripts.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptMgr.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptMgr.h",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptMgrMacros.h",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptObject.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptObject.h",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptObjectFwd.h",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptSystem.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptSystem.h",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AccountScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AccountScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AchievementCriteriaScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AchievementCriteriaScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AchievementScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AchievementScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllBattlegroundScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllBattlegroundScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllCommandScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllCommandScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllCreatureScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllCreatureScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllGameObjectScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllGameObjectScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllItemScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllItemScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllMapScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllMapScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllScriptsObjects.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllSpellScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AllSpellScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AreaTriggerScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AreaTriggerScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/ArenaScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/ArenaScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/ArenaTeamScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/ArenaTeamScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AuctionHouseScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/AuctionHouseScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/BattlegroundMapScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/BattlegroundMapScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/BattlegroundScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/BattlegroundScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/CommandScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/CommandScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/ConditionScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/ConditionScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/CreatureScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/CreatureScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/DatabaseScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/DatabaseScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/DynamicObjectScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/DynamicObjectScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/ElunaScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/ElunaScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/FormulaScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/FormulaScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/GameEventScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/GameEventScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/GameObjectScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/GameObjectScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/GlobalScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/GlobalScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/GroupScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/GroupScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/GuildScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/GuildScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/InstanceMapScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/InstanceMapScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/ItemScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/LootScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/LootScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/MailScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/MailScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/MiscScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/MiscScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/ModuleScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/ModuleScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/MovementHandlerScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/MovementHandlerScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/OutdoorPvPScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/OutdoorPvPScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/PetScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/PetScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/PlayerScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/PlayerScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/ServerScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/ServerScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/SpellScriptLoader.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/SpellScriptLoader.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/TransportScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/TransportScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/UnitScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/UnitScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/VehicleScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/VehicleScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/WeatherScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/WeatherScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/WorldMapScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/WorldMapScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/WorldObjectScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/WorldObjectScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/WorldScript.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Scripting/ScriptDefines/WorldScript.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Packet.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packet.h",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/WorldPacket.h",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/WorldSession.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/WorldSession.h",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/WorldSocket.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/WorldSocket.h",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/WorldSocketMgr.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/WorldSocketMgr.h",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packets/AllPackets.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Packets/BankPackets.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packets/BankPackets.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Packets/CharacterPackets.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packets/CharacterPackets.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Packets/ChatPackets.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packets/ChatPackets.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Packets/CombatLogPackets.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packets/CombatLogPackets.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Packets/CombatPackets.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packets/CombatPackets.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Packets/GuildPackets.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packets/GuildPackets.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Packets/LFGPackets.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packets/LFGPackets.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Packets/MiscPackets.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packets/MiscPackets.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Packets/PacketUtilities.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packets/PacketUtilities.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Packets/PetPackets.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packets/PetPackets.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Packets/TotemPackets.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packets/TotemPackets.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Packets/WorldStatePackets.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Packets/WorldStatePackets.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Protocol/Opcodes.cpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Protocol/Opcodes.h",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Server/Protocol/PacketLog.cpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Protocol/PacketLog.h",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Server/Protocol/ServerPktHeader.h",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Skills/SkillDiscovery.cpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Skills/SkillDiscovery.h",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Skills/SkillExtraItems.cpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Skills/SkillExtraItems.h",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Spells/Spell.cpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Spells/Spell.h",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Spells/SpellDefines.h",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Spells/SpellEffects.cpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Spells/SpellInfo.cpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Spells/SpellInfo.h",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Spells/SpellInfoCorrections.cpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Spells/SpellMgr.cpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Spells/SpellMgr.h",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Spells/SpellScript.cpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Spells/SpellScript.h",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Spells/Auras/SpellAuraDefines.h",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Spells/Auras/SpellAuraEffects.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Spells/Auras/SpellAuraEffects.h",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Spells/Auras/SpellAuras.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Spells/Auras/SpellAuras.h",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Texts/ChatTextBuilder.cpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Texts/ChatTextBuilder.h",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Texts/CreatureTextMgr.cpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Texts/CreatureTextMgr.h",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Tickets/TicketMgr.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Tickets/TicketMgr.h",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Time/GameTime.cpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Time/GameTime.h",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Time/UpdateTime.cpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Time/UpdateTime.h",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Tools/CharacterDatabaseCleaner.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Tools/CharacterDatabaseCleaner.h",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Tools/PlayerDump.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Tools/PlayerDump.h",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Warden/Warden.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Warden/Warden.h",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Warden/WardenCheckMgr.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Warden/WardenCheckMgr.h",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Warden/WardenMac.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Warden/WardenMac.h",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Warden/WardenPayloadMgr.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Warden/WardenPayloadMgr.h",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Warden/WardenWin.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Warden/WardenWin.h",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Warden/enuminfo_WardenCheckMgr.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Warden/Modules/WardenModuleMac.h",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Warden/Modules/WardenModuleWin.h",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Weather/Weather.cpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Weather/Weather.h",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/Weather/WeatherMgr.cpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/Weather/WeatherMgr.h",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/World/IWorld.h",
+			"sourceGroupIndex" : 80
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/game/World/World.cpp",
+			"sourceGroupIndex" : 80
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/game/World/World.h",
+			"sourceGroupIndex" : 80
+		},
+		{
+			"backtrace" : 0,
+			"path" : "out/build/x64-Debug/src/server/game/CMakeFiles/game.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 81
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

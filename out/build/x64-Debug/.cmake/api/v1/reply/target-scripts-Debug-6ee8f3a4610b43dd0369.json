@@ -1,0 +1,7305 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/server/scripts/scripts.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_definitions",
+			"include",
+			"target_include_directories",
+			"target_precompile_headers",
+			"add_cxx_pch"
+		],
+		"files" : 
+		[
+			"src/server/scripts/CMakeLists.txt",
+			"src/cmake/showoptions.cmake",
+			"CMakeLists.txt",
+			"src/cmake/macros/FindPCHSupport.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 226,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 231,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 120,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 136,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 237,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 250,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 /bigobj -MDd"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4351"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4091"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34100"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34101"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34189"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34389"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4996"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4985"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4619"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4512"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4263"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4264"
+				},
+				{
+					"fragment" : "-std:c++20"
+				},
+				{
+					"fragment" : "\"/YcC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/scripts/CMakeFiles/scripts.dir/cmake_pch.hxx\" \"/FpC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/scripts/CMakeFiles/scripts.dir/./cmake_pch.cxx.pch\" \"/FIC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/scripts/CMakeFiles/scripts.dir/cmake_pch.hxx\""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "AC_HAS_BROKEN_WSTRING_REGEX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ASIO_NO_DEPRECATED"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_BIND_NO_PLACEHOLDERS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CHRONO_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_REGEX_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SERIALIZATION_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SYSTEM_USE_UTF8"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ENABLE_VMAP_CHECKS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_CONSTEVAL="
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_LOCALE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_SSE2"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SFMT_MEXP=19937"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_BUILD_DIRECTIVE=\"Debug\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_CONF_DIR=\"C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/install/x64-Debug\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_NONSTDC_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_WIN64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/scripts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/CoreAI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/NpcBots"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/NpcBots/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/ScriptedAI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/SmartScripts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Accounts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Achievements"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Addons"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/ArenaSpectator"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AuctionHouse"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Autobroadcast"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlefield"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlefield/Zones"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlegrounds"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlegrounds/Zones"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Cache"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Calendar"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat/Channels"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat/ChatCommands"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Combat"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Conditions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/DungeonFinding"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Corpse"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Creature"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/DynamicObject"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/GameObject"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Item"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Item/Container"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Object"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Object/Updates"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Pet"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Player"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Totem"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Transport"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Unit"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Vehicle"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Events"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Globals"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids/Cells"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids/Notifiers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Groups"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Guilds"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Handlers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Instances"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Loot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Mails"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Maps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Misc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Miscellaneous"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Modules"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Motd"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/MovementGenerators"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/Spline"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/Waypoints"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/OutdoorPvP"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Petitions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Pools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Quests"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Reputation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Scripting"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Scripting/ScriptDefines"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server/Packets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server/Protocol"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Skills"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Spells"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Spells/Auras"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Texts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Tickets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Time"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Tools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Warden"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Warden/Modules"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Weather"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/World"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Network"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Packets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Realms"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Secrets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Database"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Database/Implementation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Logging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Updater"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Asio"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Management"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Maps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Models"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Configuration"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography/Authentication"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Debugging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic/LinkedReference"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Encoding"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/IPLocation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Logging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Metric"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Navigation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Threading"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Utilities"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/local/boost_1_81_0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/argon2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/SFMT"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/utf8cpp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/fmt/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/g3dlite/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/zlib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/recastnavigation/Detour/Include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 10,
+					"header" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/scripts/ScriptPCH.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 /bigobj -MDd"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4351"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4091"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34100"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34101"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34189"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34389"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4996"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4985"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4619"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4512"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4263"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4264"
+				},
+				{
+					"fragment" : "-std:c++20"
+				},
+				{
+					"fragment" : "\"/YuC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/scripts/CMakeFiles/scripts.dir/cmake_pch.hxx\" \"/FpC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/scripts/CMakeFiles/scripts.dir/./cmake_pch.cxx.pch\" \"/FIC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/server/scripts/CMakeFiles/scripts.dir/cmake_pch.hxx\""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "AC_HAS_BROKEN_WSTRING_REGEX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ASIO_NO_DEPRECATED"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_BIND_NO_PLACEHOLDERS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CHRONO_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_REGEX_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SERIALIZATION_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SYSTEM_USE_UTF8"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ENABLE_VMAP_CHECKS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_CONSTEVAL="
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_LOCALE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_SSE2"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SFMT_MEXP=19937"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_BUILD_DIRECTIVE=\"Debug\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_CONF_DIR=\"C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/install/x64-Debug\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_NONSTDC_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_WIN64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/scripts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/CoreAI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/NpcBots"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/NpcBots/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/ScriptedAI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/SmartScripts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Accounts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Achievements"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Addons"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/ArenaSpectator"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AuctionHouse"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Autobroadcast"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlefield"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlefield/Zones"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlegrounds"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlegrounds/Zones"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Cache"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Calendar"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat/Channels"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat/ChatCommands"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Combat"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Conditions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/DungeonFinding"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Corpse"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Creature"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/DynamicObject"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/GameObject"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Item"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Item/Container"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Object"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Object/Updates"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Pet"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Player"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Totem"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Transport"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Unit"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Vehicle"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Events"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Globals"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids/Cells"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids/Notifiers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Groups"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Guilds"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Handlers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Instances"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Loot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Mails"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Maps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Misc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Miscellaneous"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Modules"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Motd"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/MovementGenerators"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/Spline"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/Waypoints"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/OutdoorPvP"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Petitions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Pools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Quests"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Reputation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Scripting"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Scripting/ScriptDefines"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server/Packets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server/Protocol"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Skills"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Spells"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Spells/Auras"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Texts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Tickets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Time"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Tools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Warden"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Warden/Modules"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Weather"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/World"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Network"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Packets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Realms"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Secrets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Database"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Database/Implementation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Logging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Updater"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Asio"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Management"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Maps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Models"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Configuration"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography/Authentication"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Debugging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic/LinkedReference"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Encoding"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/IPLocation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Logging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Metric"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Navigation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Threading"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Utilities"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/local/boost_1_81_0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/argon2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/SFMT"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/utf8cpp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/fmt/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/g3dlite/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/zlib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/recastnavigation/Detour/Include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 10,
+					"header" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/scripts/ScriptPCH.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				132,
+				134,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				152,
+				153,
+				154,
+				155,
+				156,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				165,
+				166,
+				167,
+				168,
+				170,
+				171,
+				173,
+				174,
+				175,
+				177,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				187,
+				188,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				269,
+				270,
+				271,
+				272,
+				273,
+				275,
+				277,
+				278,
+				280,
+				281,
+				283,
+				284,
+				285,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				310,
+				312,
+				313,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				329,
+				330,
+				331,
+				332,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				343,
+				344,
+				345,
+				346,
+				347,
+				349,
+				350,
+				351,
+				352,
+				353,
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				363,
+				364,
+				365,
+				366,
+				368,
+				369,
+				370,
+				371,
+				373,
+				374,
+				375,
+				376,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				385,
+				386,
+				387,
+				388,
+				389,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				425,
+				427,
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				442,
+				443,
+				444,
+				445,
+				447,
+				448,
+				449,
+				450,
+				451,
+				453,
+				454,
+				455,
+				456,
+				457,
+				458,
+				459,
+				460,
+				461,
+				462,
+				463,
+				464,
+				465,
+				466,
+				467,
+				468,
+				469,
+				471,
+				472,
+				473,
+				474,
+				475,
+				477,
+				478,
+				479,
+				480,
+				481,
+				482,
+				484,
+				485,
+				486,
+				487,
+				488,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				500,
+				502,
+				504,
+				506,
+				508,
+				510,
+				512,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				526,
+				527,
+				528,
+				529,
+				530,
+				531,
+				532,
+				534,
+				535,
+				536,
+				537,
+				539,
+				540,
+				541,
+				542,
+				543,
+				546,
+				547,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				554,
+				555,
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				562,
+				564,
+				565,
+				566,
+				567,
+				568,
+				569,
+				571,
+				572,
+				573,
+				574,
+				576,
+				577,
+				578,
+				579,
+				580,
+				582,
+				583,
+				584,
+				586,
+				588,
+				589,
+				590,
+				591,
+				592,
+				593,
+				594,
+				596,
+				597,
+				598,
+				600,
+				601,
+				602,
+				603,
+				604,
+				606,
+				607,
+				608,
+				609,
+				610,
+				612,
+				613,
+				614,
+				615,
+				616,
+				617,
+				619,
+				621,
+				622,
+				623,
+				624,
+				625,
+				626,
+				627,
+				628,
+				629,
+				630,
+				631,
+				633,
+				634,
+				635,
+				636,
+				637,
+				638,
+				639,
+				640,
+				641,
+				642,
+				643,
+				644,
+				645,
+				646,
+				647,
+				648,
+				649,
+				650,
+				651,
+				652,
+				653,
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				660,
+				661,
+				662,
+				663,
+				664,
+				665,
+				667,
+				668,
+				669,
+				670,
+				671
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "argon2::@c072c1a31b0c98ace58a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sfmt::@1a52b9e852e5a484adf5"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "fmt::@c1a9231e0206e99398e7"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "zlib::@a10f134e8da49500ac3b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Detour::@6e63253b01af92081277"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "g3dlib::@50fdfca79ef561a7d74c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "common::@af79f3804eddddbfa7f1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "database::@f0cb456b49017b16757b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "shared::@c6c548c1b6416905cf8a"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "scripts"
+	},
+	"id" : "scripts::@80ecf2aa53e79a4e1ae2",
+	"name" : "scripts",
+	"nameOnDisk" : "scripts.lib",
+	"paths" : 
+	{
+		"build" : "src/server/scripts",
+		"source" : "src/server/scripts"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "Commands",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51
+			]
+		},
+		{
+			"name" : "Custom",
+			"sourceIndexes" : 
+			[
+				52
+			]
+		},
+		{
+			"name" : "EasternKingdoms",
+			"sourceIndexes" : 
+			[
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\AlteracValley",
+			"sourceIndexes" : 
+			[
+				72,
+				73,
+				74,
+				75,
+				76
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\BlackrockMountain\\BlackrockDepths",
+			"sourceIndexes" : 
+			[
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\BlackrockMountain\\BlackrockSpire",
+			"sourceIndexes" : 
+			[
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\BlackrockMountain\\BlackwingLair",
+			"sourceIndexes" : 
+			[
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\BlackrockMountain\\MoltenCore",
+			"sourceIndexes" : 
+			[
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\Deadmines",
+			"sourceIndexes" : 
+			[
+				132,
+				133,
+				134
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\Gnomeregan",
+			"sourceIndexes" : 
+			[
+				135,
+				136
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\Karazhan",
+			"sourceIndexes" : 
+			[
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\MagistersTerrace",
+			"sourceIndexes" : 
+			[
+				152,
+				153,
+				154,
+				155,
+				156,
+				157
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\ScarletEnclave",
+			"sourceIndexes" : 
+			[
+				158,
+				159,
+				160,
+				161,
+				162
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\ScarletMonastery",
+			"sourceIndexes" : 
+			[
+				163,
+				164
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\Scholomance",
+			"sourceIndexes" : 
+			[
+				165,
+				166,
+				167,
+				168,
+				169
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\ShadowfangKeep",
+			"sourceIndexes" : 
+			[
+				170,
+				171,
+				172
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\Stratholme",
+			"sourceIndexes" : 
+			[
+				173,
+				174,
+				175,
+				176
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\SunkenTemple",
+			"sourceIndexes" : 
+			[
+				177,
+				178
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\SunwellPlateau",
+			"sourceIndexes" : 
+			[
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\TheStockade",
+			"sourceIndexes" : 
+			[
+				187
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\Uldaman",
+			"sourceIndexes" : 
+			[
+				188,
+				189
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\ZulAman",
+			"sourceIndexes" : 
+			[
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198
+			]
+		},
+		{
+			"name" : "EasternKingdoms\\ZulGurub",
+			"sourceIndexes" : 
+			[
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214
+			]
+		},
+		{
+			"name" : "Events",
+			"sourceIndexes" : 
+			[
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222
+			]
+		},
+		{
+			"name" : "Kalimdor",
+			"sourceIndexes" : 
+			[
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244
+			]
+		},
+		{
+			"name" : "Kalimdor\\BlackfathomDeeps",
+			"sourceIndexes" : 
+			[
+				245,
+				246
+			]
+		},
+		{
+			"name" : "Kalimdor\\CavernsOfTime\\BattleForMountHyjal",
+			"sourceIndexes" : 
+			[
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254
+			]
+		},
+		{
+			"name" : "Kalimdor\\CavernsOfTime\\CullingOfStratholme",
+			"sourceIndexes" : 
+			[
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262
+			]
+		},
+		{
+			"name" : "Kalimdor\\CavernsOfTime\\EscapeFromDurnholdeKeep",
+			"sourceIndexes" : 
+			[
+				263,
+				264,
+				265,
+				266,
+				267,
+				268
+			]
+		},
+		{
+			"name" : "Kalimdor\\CavernsOfTime\\TheBlackMorass",
+			"sourceIndexes" : 
+			[
+				269,
+				270,
+				271,
+				272,
+				273,
+				274
+			]
+		},
+		{
+			"name" : "Kalimdor\\DireMaul",
+			"sourceIndexes" : 
+			[
+				275,
+				276,
+				277
+			]
+		},
+		{
+			"name" : "Kalimdor\\Maraudon",
+			"sourceIndexes" : 
+			[
+				278,
+				279
+			]
+		},
+		{
+			"name" : "Kalimdor\\OnyxiasLair",
+			"sourceIndexes" : 
+			[
+				280,
+				281,
+				282
+			]
+		},
+		{
+			"name" : "Kalimdor\\RagefireChasm",
+			"sourceIndexes" : 
+			[
+				283
+			]
+		},
+		{
+			"name" : "Kalimdor\\RazorfenDowns",
+			"sourceIndexes" : 
+			[
+				284,
+				285,
+				286
+			]
+		},
+		{
+			"name" : "Kalimdor\\RazorfenKraul",
+			"sourceIndexes" : 
+			[
+				287
+			]
+		},
+		{
+			"name" : "Kalimdor\\RuinsOfAhnQiraj",
+			"sourceIndexes" : 
+			[
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296
+			]
+		},
+		{
+			"name" : "Kalimdor\\TempleOfAhnQiraj",
+			"sourceIndexes" : 
+			[
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309
+			]
+		},
+		{
+			"name" : "Kalimdor\\WailingCaverns",
+			"sourceIndexes" : 
+			[
+				310,
+				311
+			]
+		},
+		{
+			"name" : "Kalimdor\\ZulFarrak",
+			"sourceIndexes" : 
+			[
+				312,
+				313,
+				314
+			]
+		},
+		{
+			"name" : "Northrend",
+			"sourceIndexes" : 
+			[
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327
+			]
+		},
+		{
+			"name" : "Northrend\\AzjolNerub\\AzjolNerub",
+			"sourceIndexes" : 
+			[
+				328,
+				329,
+				330,
+				331,
+				332
+			]
+		},
+		{
+			"name" : "Northrend\\AzjolNerub\\ahnkahet",
+			"sourceIndexes" : 
+			[
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339
+			]
+		},
+		{
+			"name" : "Northrend\\ChamberOfAspects\\ObsidianSanctum",
+			"sourceIndexes" : 
+			[
+				340,
+				341,
+				342
+			]
+		},
+		{
+			"name" : "Northrend\\ChamberOfAspects\\RubySanctum",
+			"sourceIndexes" : 
+			[
+				343,
+				344,
+				345,
+				346,
+				347,
+				348
+			]
+		},
+		{
+			"name" : "Northrend\\CrusadersColiseum\\TrialOfTheChampion",
+			"sourceIndexes" : 
+			[
+				349,
+				350,
+				351,
+				352,
+				353,
+				354
+			]
+		},
+		{
+			"name" : "Northrend\\CrusadersColiseum\\TrialOfTheCrusader",
+			"sourceIndexes" : 
+			[
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362
+			]
+		},
+		{
+			"name" : "Northrend\\DraktharonKeep",
+			"sourceIndexes" : 
+			[
+				363,
+				364,
+				365,
+				366,
+				367,
+				368
+			]
+		},
+		{
+			"name" : "Northrend\\FrozenHalls\\ForgeOfSouls",
+			"sourceIndexes" : 
+			[
+				369,
+				370,
+				371,
+				372,
+				373
+			]
+		},
+		{
+			"name" : "Northrend\\FrozenHalls\\HallsOfReflection",
+			"sourceIndexes" : 
+			[
+				374,
+				375,
+				376,
+				377,
+				378
+			]
+		},
+		{
+			"name" : "Northrend\\FrozenHalls\\PitOfSaron",
+			"sourceIndexes" : 
+			[
+				379,
+				380,
+				381,
+				382,
+				383,
+				384
+			]
+		},
+		{
+			"name" : "Northrend\\Gundrak",
+			"sourceIndexes" : 
+			[
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391
+			]
+		},
+		{
+			"name" : "Northrend\\IcecrownCitadel",
+			"sourceIndexes" : 
+			[
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406,
+				407
+			]
+		},
+		{
+			"name" : "Northrend\\Naxxramas",
+			"sourceIndexes" : 
+			[
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424
+			]
+		},
+		{
+			"name" : "Northrend\\Nexus\\EyeOfEternity",
+			"sourceIndexes" : 
+			[
+				425,
+				426,
+				427
+			]
+		},
+		{
+			"name" : "Northrend\\Nexus\\Nexus",
+			"sourceIndexes" : 
+			[
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434
+			]
+		},
+		{
+			"name" : "Northrend\\Nexus\\Oculus",
+			"sourceIndexes" : 
+			[
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441
+			]
+		},
+		{
+			"name" : "Northrend\\Ulduar\\HallsOfLightning",
+			"sourceIndexes" : 
+			[
+				442,
+				443,
+				444,
+				445,
+				446,
+				447
+			]
+		},
+		{
+			"name" : "Northrend\\Ulduar\\HallsOfStone",
+			"sourceIndexes" : 
+			[
+				448,
+				449,
+				450,
+				451,
+				452,
+				453
+			]
+		},
+		{
+			"name" : "Northrend\\Ulduar\\Ulduar",
+			"sourceIndexes" : 
+			[
+				454,
+				455,
+				456,
+				457,
+				458,
+				459,
+				460,
+				461,
+				462,
+				463,
+				464,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470
+			]
+		},
+		{
+			"name" : "Northrend\\UtgardeKeep\\UtgardeKeep",
+			"sourceIndexes" : 
+			[
+				471,
+				472,
+				473,
+				474,
+				475,
+				476
+			]
+		},
+		{
+			"name" : "Northrend\\UtgardeKeep\\UtgardePinnacle",
+			"sourceIndexes" : 
+			[
+				477,
+				478,
+				479,
+				480,
+				481,
+				482,
+				483
+			]
+		},
+		{
+			"name" : "Northrend\\VaultOfArchavon",
+			"sourceIndexes" : 
+			[
+				484,
+				485,
+				486,
+				487,
+				488,
+				489
+			]
+		},
+		{
+			"name" : "Northrend\\VioletHold",
+			"sourceIndexes" : 
+			[
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				499
+			]
+		},
+		{
+			"name" : "OutdoorPvP",
+			"sourceIndexes" : 
+			[
+				500,
+				501,
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514
+			]
+		},
+		{
+			"name" : "Outland",
+			"sourceIndexes" : 
+			[
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524
+			]
+		},
+		{
+			"name" : "Outland\\Auchindoun\\AuchenaiCrypts",
+			"sourceIndexes" : 
+			[
+				525,
+				526,
+				527,
+				528
+			]
+		},
+		{
+			"name" : "Outland\\Auchindoun\\ManaTombs",
+			"sourceIndexes" : 
+			[
+				529,
+				530,
+				531,
+				532,
+				533
+			]
+		},
+		{
+			"name" : "Outland\\Auchindoun\\SethekkHalls",
+			"sourceIndexes" : 
+			[
+				534,
+				535,
+				536,
+				537,
+				538
+			]
+		},
+		{
+			"name" : "Outland\\Auchindoun\\ShadowLabyrinth",
+			"sourceIndexes" : 
+			[
+				539,
+				540,
+				541,
+				542,
+				543,
+				544
+			]
+		},
+		{
+			"name" : "Outland\\BlackTemple",
+			"sourceIndexes" : 
+			[
+				545,
+				546,
+				547,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				554,
+				555
+			]
+		},
+		{
+			"name" : "Outland\\CoilfangReservoir\\SerpentShrine",
+			"sourceIndexes" : 
+			[
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				562,
+				563
+			]
+		},
+		{
+			"name" : "Outland\\CoilfangReservoir\\SlavePens",
+			"sourceIndexes" : 
+			[
+				564,
+				565,
+				566,
+				567,
+				568,
+				569,
+				570
+			]
+		},
+		{
+			"name" : "Outland\\CoilfangReservoir\\SteamVault",
+			"sourceIndexes" : 
+			[
+				571,
+				572,
+				573,
+				574,
+				575
+			]
+		},
+		{
+			"name" : "Outland\\CoilfangReservoir\\underbog",
+			"sourceIndexes" : 
+			[
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				582
+			]
+		},
+		{
+			"name" : "Outland\\GruulsLair",
+			"sourceIndexes" : 
+			[
+				583,
+				584,
+				585,
+				586
+			]
+		},
+		{
+			"name" : "Outland\\HellfireCitadel\\BloodFurnace",
+			"sourceIndexes" : 
+			[
+				587,
+				588,
+				589,
+				590,
+				591
+			]
+		},
+		{
+			"name" : "Outland\\HellfireCitadel\\HellfireRamparts",
+			"sourceIndexes" : 
+			[
+				592,
+				593,
+				594,
+				595,
+				596
+			]
+		},
+		{
+			"name" : "Outland\\HellfireCitadel\\MagtheridonsLair",
+			"sourceIndexes" : 
+			[
+				597,
+				598,
+				599
+			]
+		},
+		{
+			"name" : "Outland\\HellfireCitadel\\ShatteredHalls",
+			"sourceIndexes" : 
+			[
+				600,
+				601,
+				602,
+				603,
+				604,
+				605
+			]
+		},
+		{
+			"name" : "Outland\\TempestKeep\\Eye",
+			"sourceIndexes" : 
+			[
+				606,
+				607,
+				608,
+				609,
+				610,
+				611
+			]
+		},
+		{
+			"name" : "Outland\\TempestKeep\\Mechanar",
+			"sourceIndexes" : 
+			[
+				612,
+				613,
+				614,
+				615,
+				616,
+				617,
+				618
+			]
+		},
+		{
+			"name" : "Outland\\TempestKeep\\arcatraz",
+			"sourceIndexes" : 
+			[
+				619,
+				620,
+				621,
+				622,
+				623,
+				624,
+				625
+			]
+		},
+		{
+			"name" : "Outland\\TempestKeep\\botanica",
+			"sourceIndexes" : 
+			[
+				626,
+				627,
+				628,
+				629,
+				630,
+				631,
+				632
+			]
+		},
+		{
+			"name" : "Pet",
+			"sourceIndexes" : 
+			[
+				633,
+				634,
+				635,
+				636,
+				637,
+				638,
+				639
+			]
+		},
+		{
+			"name" : "Spells",
+			"sourceIndexes" : 
+			[
+				640,
+				641,
+				642,
+				643,
+				644,
+				645,
+				646,
+				647,
+				648,
+				649,
+				650,
+				651,
+				652,
+				653
+			]
+		},
+		{
+			"name" : "World",
+			"sourceIndexes" : 
+			[
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				660,
+				661,
+				662,
+				663,
+				664,
+				665,
+				666,
+				667,
+				668,
+				669,
+				670,
+				671
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				672
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/src/server/scripts/CMakeFiles/scripts.dir/cmake_pch.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/ScriptLoader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "out/build/x64-Debug/src/server/scripts/gen_scriptloader/static/ScriptLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/PlayerCommand.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Commands/PlayerCommand.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_account.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_achievement.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_arena.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_bag.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_ban.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_bf.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_cache.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_cast.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_character.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_cheat.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_debug.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_deserter.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_disable.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_event.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_gear.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_gm.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_go.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_gobject.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_group.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_guild.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_honor.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_instance.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_inventory.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_item.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_learn.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_lfg.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_list.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_lookup.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_message.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_misc.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_mmaps.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_modify.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_npc.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_pet.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_player.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_player_settings.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_quest.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_reload.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_reset.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_script_loader.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_send.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_server.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_spectator.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_tele.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_ticket.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_titles.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Commands/cs_wp.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Custom/custom_script_loader.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/eastern_kingdoms_script_loader.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_arathi_highlands.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_blasted_lands.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_burning_steppes.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_duskwood.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_eastern_plaguelands.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_elwynn_forest.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_eversong_woods.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_ghostlands.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_hinterlands.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_isle_of_queldanas.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_redridge_mountains.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_silverpine_forest.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_stormwind_city.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_tirisfal_glades.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_undercity.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_western_plaguelands.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_westfall.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/zone_wetlands.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/AlteracValley/alterac_valley.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/AlteracValley/boss_balinda.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/AlteracValley/boss_drekthar.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/AlteracValley/boss_galvangar.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/AlteracValley/boss_vanndar.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/blackrock_depths.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/blackrock_depths.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_ambassador_flamelash.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_anubshiah.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_emperor_dagran_thaurissan.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_eviscerator.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_general_angerforge.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_gorosh_the_dervish.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_grizzle.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_hedrum.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_high_interrogator_gerstahn.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_magmus.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_moira_bronzebeard.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_okthor.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/boss_tomb_of_seven.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockDepths/instance_blackrock_depths.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/blackrock_spire.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_drakkisath.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_gyth.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_halycon.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_highlord_omokk.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_lord_valthalak.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_mor_grayhoof.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_overlord_wyrmthalak.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_pyroguard_emberseer.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_quartermaster_zigris.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_rend_blackhand.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_solakar_flamewreath.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_the_beast.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_urok_doomhowl.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/boss_warmaster_voone.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackrockSpire/instance_blackrock_spire.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/blackwing_lair.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/boss_broodlord_lashlayer.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/boss_chromaggus.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/boss_ebonroc.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/boss_firemaw.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/boss_flamegor.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/boss_nefarian.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/boss_razorgore.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/boss_vaelastrasz.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/BlackwingLair/instance_blackwing_lair.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/boss_baron_geddon.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/boss_garr.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/boss_gehennas.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/boss_golemagg.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/boss_lucifron.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/boss_magmadar.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/boss_majordomo_executus.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/boss_ragnaros.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/boss_shazzrah.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/boss_sulfuron_harbinger.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/instance_molten_core.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/molten_core.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/BlackrockMountain/MoltenCore/molten_core.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Deadmines/boss_mr_smite.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Deadmines/deadmines.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Deadmines/instance_deadmines.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Gnomeregan/gnomeregan.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Gnomeregan/instance_gnomeregan.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/boss_chess_event.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/boss_curator.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/boss_maiden_of_virtue.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/boss_midnight.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/boss_moroes.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/boss_netherspite.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/boss_nightbane.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/boss_prince_malchezaar.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/boss_servant_quarters.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/boss_shade_of_aran.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/boss_terestian_illhoof.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/bosses_opera.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/instance_karazhan.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/karazhan.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Karazhan/karazhan.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/MagistersTerrace/boss_felblood_kaelthas.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/MagistersTerrace/boss_priestess_delrissa.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/MagistersTerrace/boss_selin_fireheart.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/MagistersTerrace/boss_vexallus.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/MagistersTerrace/instance_magisters_terrace.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/MagistersTerrace/magisters_terrace.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ScarletEnclave/chapter1.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ScarletEnclave/chapter2.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ScarletEnclave/chapter3.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ScarletEnclave/chapter5.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ScarletEnclave/zone_the_scarlet_enclave.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ScarletMonastery/instance_scarlet_monastery.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ScarletMonastery/scarletmonastery.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Scholomance/boss_darkmaster_gandling.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Scholomance/boss_kirtonos_the_herald.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Scholomance/boss_kormok.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Scholomance/instance_scholomance.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Scholomance/scholomance.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ShadowfangKeep/boss_apothecary_hummel.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ShadowfangKeep/instance_shadowfang_keep.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ShadowfangKeep/shadowfang_keep.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Stratholme/boss_baroness_anastari.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Stratholme/boss_jarien_and_sothos.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Stratholme/instance_stratholme.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Stratholme/stratholme.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/SunkenTemple/instance_sunken_temple.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/SunkenTemple/sunken_temple.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/SunwellPlateau/boss_brutallus.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/SunwellPlateau/boss_eredar_twins.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/SunwellPlateau/boss_felmyst.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/SunwellPlateau/boss_kalecgos.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/SunwellPlateau/boss_kiljaeden.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/SunwellPlateau/boss_muru.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/SunwellPlateau/instance_sunwell_plateau.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/SunwellPlateau/sunwell_plateau.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/TheStockade/instance_the_stockade.cpp",
+			"sourceGroupIndex" : 21
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Uldaman/instance_uldaman.cpp",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/Uldaman/uldaman.h",
+			"sourceGroupIndex" : 22
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulAman/boss_akilzon.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulAman/boss_halazzi.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulAman/boss_hexlord.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulAman/boss_janalai.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulAman/boss_nalorakk.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulAman/boss_zuljin.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulAman/instance_zulaman.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulAman/zulaman.cpp",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulAman/zulaman.h",
+			"sourceGroupIndex" : 23
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/boss_arlokk.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/boss_gahzranka.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/boss_grilek.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/boss_hakkar.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/boss_hazzarah.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/boss_jeklik.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/boss_jindo.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/boss_mandokir.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/boss_marli.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/boss_renataki.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/boss_thekal.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/boss_venoxis.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/boss_wushoolay.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/instance_zulgurub.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/zulgurub.cpp",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/EasternKingdoms/ZulGurub/zulgurub.h",
+			"sourceGroupIndex" : 24
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Events/brewfest.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Events/childrens_week.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Events/events_script_loader.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Events/hallows_end.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Events/love_in_air.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Events/midsummer.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Events/pilgrims_bounty.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Events/winter_veil.cpp",
+			"sourceGroupIndex" : 25
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/boss_azuregos.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/kalimdor_script_loader.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_ashenvale.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_azshara.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_azuremyst_isle.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_bloodmyst_isle.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_darkshore.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_desolace.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_durotar.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_dustwallow_marsh.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_felwood.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_feralas.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_moonglade.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_orgrimmar.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_silithus.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_stonetalon_mountains.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_tanaris.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_the_barrens.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_thousand_needles.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_thunder_bluff.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_ungoro_crater.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/zone_winterspring.cpp",
+			"sourceGroupIndex" : 26
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Kalimdor/BlackfathomDeeps/blackfathom_deeps.h",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/BlackfathomDeeps/instance_blackfathom_deeps.cpp",
+			"sourceGroupIndex" : 27
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/boss_anetheron.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/boss_archimonde.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/boss_azgalor.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/boss_kazrogal.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/boss_rage_winterchill.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/hyjal.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/hyjal.h",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/BattleForMountHyjal/instance_hyjal.cpp",
+			"sourceGroupIndex" : 28
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_epoch.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_infinite.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_mal_ganis.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_meathook.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/boss_salramm.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/culling_of_stratholme.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/culling_of_stratholme.h",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/CullingOfStratholme/instance_culling_of_stratholme.cpp",
+			"sourceGroupIndex" : 29
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/EscapeFromDurnholdeKeep/boss_captain_skarloc.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/EscapeFromDurnholdeKeep/boss_epoch_hunter.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/EscapeFromDurnholdeKeep/boss_lieutenant_drake.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/EscapeFromDurnholdeKeep/instance_old_hillsbrad.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/EscapeFromDurnholdeKeep/old_hillsbrad.cpp",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/EscapeFromDurnholdeKeep/old_hillsbrad.h",
+			"sourceGroupIndex" : 30
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/TheBlackMorass/boss_aeonus.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/TheBlackMorass/boss_chrono_lord_deja.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/TheBlackMorass/boss_temporus.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/TheBlackMorass/instance_the_black_morass.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/TheBlackMorass/the_black_morass.cpp",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Kalimdor/CavernsOfTime/TheBlackMorass/the_black_morass.h",
+			"sourceGroupIndex" : 31
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/DireMaul/boss_isalien.cpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Kalimdor/DireMaul/dire_maul.h",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/DireMaul/instance_dire_maul.cpp",
+			"sourceGroupIndex" : 32
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/Maraudon/instance_maraudon.cpp",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Kalimdor/Maraudon/maraudon.h",
+			"sourceGroupIndex" : 33
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/OnyxiasLair/boss_onyxia.cpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/OnyxiasLair/instance_onyxias_lair.cpp",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Kalimdor/OnyxiasLair/onyxias_lair.h",
+			"sourceGroupIndex" : 34
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/RagefireChasm/instance_ragefire_chasm.cpp",
+			"sourceGroupIndex" : 35
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/RazorfenDowns/instance_razorfen_downs.cpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.cpp",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Kalimdor/RazorfenDowns/razorfen_downs.h",
+			"sourceGroupIndex" : 36
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/RazorfenKraul/instance_razorfen_kraul.cpp",
+			"sourceGroupIndex" : 37
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/RuinsOfAhnQiraj/boss_ayamiss.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/RuinsOfAhnQiraj/boss_buru.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/RuinsOfAhnQiraj/boss_kurinnaxx.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/RuinsOfAhnQiraj/boss_moam.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/RuinsOfAhnQiraj/boss_ossirian.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/RuinsOfAhnQiraj/boss_rajaxx.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/RuinsOfAhnQiraj/instance_ruins_of_ahnqiraj.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/RuinsOfAhnQiraj/ruins_of_ahnqiraj.cpp",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Kalimdor/RuinsOfAhnQiraj/ruins_of_ahnqiraj.h",
+			"sourceGroupIndex" : 38
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/TempleOfAhnQiraj/boss_bug_trio.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/TempleOfAhnQiraj/boss_cthun.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/TempleOfAhnQiraj/boss_fankriss.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/TempleOfAhnQiraj/boss_huhuran.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/TempleOfAhnQiraj/boss_ouro.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/TempleOfAhnQiraj/boss_sartura.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/TempleOfAhnQiraj/boss_skeram.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/TempleOfAhnQiraj/boss_twinemperors.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/TempleOfAhnQiraj/boss_viscidus.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/TempleOfAhnQiraj/instance_temple_of_ahnqiraj.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/TempleOfAhnQiraj/mob_anubisath_sentinel.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/TempleOfAhnQiraj/temple_of_ahnqiraj.cpp",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Kalimdor/TempleOfAhnQiraj/temple_of_ahnqiraj.h",
+			"sourceGroupIndex" : 39
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/WailingCaverns/instance_wailing_caverns.cpp",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Kalimdor/WailingCaverns/wailing_caverns.h",
+			"sourceGroupIndex" : 40
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/ZulFarrak/instance_zulfarrak.cpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Kalimdor/ZulFarrak/zulfarrak.cpp",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Kalimdor/ZulFarrak/zulfarrak.h",
+			"sourceGroupIndex" : 41
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/isle_of_conquest.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/northrend_script_loader.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/zone_borean_tundra.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/zone_crystalsong_forest.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/zone_dalaran.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/zone_dragonblight.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/zone_grizzly_hills.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/zone_howling_fjord.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/zone_icecrown.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/zone_sholazar_basin.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/zone_storm_peaks.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/zone_wintergrasp.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/zone_zuldrak.cpp",
+			"sourceGroupIndex" : 42
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/AzjolNerub/AzjolNerub/azjol_nerub.h",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/AzjolNerub/AzjolNerub/boss_anubarak.cpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/AzjolNerub/AzjolNerub/boss_hadronox.cpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/AzjolNerub/AzjolNerub/boss_krikthir_the_gatewatcher.cpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/AzjolNerub/AzjolNerub/instance_azjol_nerub.cpp",
+			"sourceGroupIndex" : 43
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/AzjolNerub/ahnkahet/ahnkahet.h",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/AzjolNerub/ahnkahet/boss_amanitar.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/AzjolNerub/ahnkahet/boss_elder_nadox.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/AzjolNerub/ahnkahet/boss_herald_volazj.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/AzjolNerub/ahnkahet/boss_jedoga_shadowseeker.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/AzjolNerub/ahnkahet/boss_prince_taldaram.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/AzjolNerub/ahnkahet/instance_ahnkahet.cpp",
+			"sourceGroupIndex" : 44
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/ChamberOfAspects/ObsidianSanctum/boss_sartharion.cpp",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/ChamberOfAspects/ObsidianSanctum/instance_obsidian_sanctum.cpp",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/ChamberOfAspects/ObsidianSanctum/obsidian_sanctum.h",
+			"sourceGroupIndex" : 45
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_baltharus_the_warborn.cpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_general_zarithrian.cpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_halion.cpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/boss_saviana_ragefire.cpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/instance_ruby_sanctum.cpp",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/ChamberOfAspects/RubySanctum/ruby_sanctum.h",
+			"sourceGroupIndex" : 46
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheChampion/boss_argent_challenge.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheChampion/boss_black_knight.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheChampion/boss_grand_champions.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheChampion/instance_trial_of_the_champion.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheChampion/trial_of_the_champion.cpp",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheChampion/trial_of_the_champion.h",
+			"sourceGroupIndex" : 47
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheCrusader/boss_anubarak_trial.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheCrusader/boss_faction_champions.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheCrusader/boss_lord_jaraxxus.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheCrusader/boss_northrend_beasts.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheCrusader/boss_twin_valkyr.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheCrusader/instance_trial_of_the_crusader.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheCrusader/trial_of_the_crusader.cpp",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/CrusadersColiseum/TrialOfTheCrusader/trial_of_the_crusader.h",
+			"sourceGroupIndex" : 48
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/DraktharonKeep/boss_dred.cpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/DraktharonKeep/boss_novos.cpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/DraktharonKeep/boss_tharon_ja.cpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/DraktharonKeep/boss_trollgore.cpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/DraktharonKeep/drak_tharon_keep.h",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/DraktharonKeep/instance_drak_tharon_keep.cpp",
+			"sourceGroupIndex" : 49
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/ForgeOfSouls/boss_bronjahm.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/ForgeOfSouls/boss_devourer_of_souls.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/ForgeOfSouls/forge_of_souls.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/ForgeOfSouls/forge_of_souls.h",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/ForgeOfSouls/instance_forge_of_souls.cpp",
+			"sourceGroupIndex" : 50
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/HallsOfReflection/boss_falric.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/HallsOfReflection/boss_marwyn.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/HallsOfReflection/halls_of_reflection.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/HallsOfReflection/halls_of_reflection.h",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/HallsOfReflection/instance_halls_of_reflection.cpp",
+			"sourceGroupIndex" : 51
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/PitOfSaron/boss_forgemaster_garfrost.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/PitOfSaron/boss_krickandick.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/PitOfSaron/boss_scourgelord_tyrannus.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/PitOfSaron/instance_pit_of_saron.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/PitOfSaron/pit_of_saron.cpp",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/FrozenHalls/PitOfSaron/pit_of_saron.h",
+			"sourceGroupIndex" : 52
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Gundrak/boss_drakkari_colossus.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Gundrak/boss_eck.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Gundrak/boss_gal_darah.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Gundrak/boss_moorabi.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Gundrak/boss_slad_ran.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/Gundrak/gundrak.h",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Gundrak/instance_gundrak.cpp",
+			"sourceGroupIndex" : 53
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/boss_blood_prince_council.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/boss_blood_queen_lana_thel.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/boss_deathbringer_saurfang.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/boss_festergut.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/boss_icecrown_gunship_battle.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/boss_lady_deathwhisper.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/boss_lord_marrowgar.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/boss_professor_putricide.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/boss_rotface.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/boss_sindragosa.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/boss_the_lich_king.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/boss_valithria_dreamwalker.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/icecrown_citadel.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/icecrown_citadel.h",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/icecrown_citadel_teleport.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/IcecrownCitadel/instance_icecrown_citadel.cpp",
+			"sourceGroupIndex" : 54
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_anubrekhan.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_faerlina.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_four_horsemen.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_gluth.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_gothik.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_grobbulus.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_heigan.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_kelthuzad.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_loatheb.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_maexxna.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_noth.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_patchwerk.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_razuvious.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_sapphiron.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/boss_thaddius.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/instance_naxxramas.cpp",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/Naxxramas/naxxramas.h",
+			"sourceGroupIndex" : 55
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/EyeOfEternity/boss_malygos.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/EyeOfEternity/eye_of_eternity.h",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/EyeOfEternity/instance_eye_of_eternity.cpp",
+			"sourceGroupIndex" : 56
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Nexus/boss_anomalus.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Nexus/boss_commander_stoutbeard_kolurg.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Nexus/boss_keristrasza.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Nexus/boss_magus_telestra.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Nexus/boss_ormorok.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Nexus/instance_nexus.cpp",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Nexus/nexus.h",
+			"sourceGroupIndex" : 57
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Oculus/boss_drakos.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Oculus/boss_eregos.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Oculus/boss_urom.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Oculus/boss_varos.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Oculus/instance_oculus.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Oculus/oculus.cpp",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/Nexus/Oculus/oculus.h",
+			"sourceGroupIndex" : 58
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/HallsOfLightning/boss_bjarngrim.cpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/HallsOfLightning/boss_ionar.cpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/HallsOfLightning/boss_loken.cpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/HallsOfLightning/boss_volkhan.cpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/HallsOfLightning/halls_of_lightning.h",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/HallsOfLightning/instance_halls_of_lightning.cpp",
+			"sourceGroupIndex" : 59
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/HallsOfStone/boss_krystallus.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/HallsOfStone/boss_maiden_of_grief.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/HallsOfStone/boss_sjonnir.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/HallsOfStone/brann_bronzebeard.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/HallsOfStone/halls_of_stone.h",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/HallsOfStone/instance_halls_of_stone.cpp",
+			"sourceGroupIndex" : 60
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_algalon_the_observer.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_assembly_of_iron.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_auriaya.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_flame_leviathan.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_freya.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_general_vezax.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_hodir.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_ignis.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_kologarn.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_mimiron.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_razorscale.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_thorim.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_xt002.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/boss_yoggsaron.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/instance_ulduar.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/ulduar.cpp",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/Ulduar/Ulduar/ulduar.h",
+			"sourceGroupIndex" : 61
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/UtgardeKeep/UtgardeKeep/boss_ingvar_the_plunderer.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/UtgardeKeep/UtgardeKeep/boss_keleseth.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/UtgardeKeep/UtgardeKeep/boss_skarvald_dalronn.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/UtgardeKeep/UtgardeKeep/instance_utgarde_keep.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/UtgardeKeep/UtgardeKeep/utgarde_keep.cpp",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/UtgardeKeep/UtgardeKeep/utgarde_keep.h",
+			"sourceGroupIndex" : 62
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/boss_palehoof.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/boss_skadi.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/boss_svala.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/boss_ymiron.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/instance_utgarde_pinnacle.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/utgarde_pinnacle.cpp",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/UtgardeKeep/UtgardePinnacle/utgarde_pinnacle.h",
+			"sourceGroupIndex" : 63
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VaultOfArchavon/boss_archavon.cpp",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VaultOfArchavon/boss_emalon.cpp",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VaultOfArchavon/boss_koralon.cpp",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VaultOfArchavon/boss_toravon.cpp",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VaultOfArchavon/instance_vault_of_archavon.cpp",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/VaultOfArchavon/vault_of_archavon.h",
+			"sourceGroupIndex" : 64
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VioletHold/boss_cyanigosa.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VioletHold/boss_erekem.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VioletHold/boss_ichoron.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VioletHold/boss_lavanthor.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VioletHold/boss_moragg.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VioletHold/boss_xevozz.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VioletHold/boss_zuramat.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VioletHold/instance_violet_hold.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Northrend/VioletHold/violet_hold.cpp",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Northrend/VioletHold/violet_hold.h",
+			"sourceGroupIndex" : 65
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPEP.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPEP.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPGH.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPGH.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPHP.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPHP.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPNA.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPNA.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPSI.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPSI.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPTF.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPTF.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPZM.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/OutdoorPvPZM.h",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/OutdoorPvP/outdoorpvp_script_loader.cpp",
+			"sourceGroupIndex" : 66
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/boss_doomlord_kazzak.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/boss_doomwalker.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/outland_script_loader.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/zone_blades_edge_mountains.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/zone_hellfire_peninsula.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/zone_nagrand.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/zone_netherstorm.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/zone_shadowmoon_valley.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/zone_shattrath_city.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/zone_terokkar_forest.cpp",
+			"sourceGroupIndex" : 67
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/AuchenaiCrypts/auchenai_crypts.h",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/AuchenaiCrypts/boss_exarch_maladaar.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/AuchenaiCrypts/boss_shirrak_the_dead_watcher.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/AuchenaiCrypts/instance_auchenai_crypts.cpp",
+			"sourceGroupIndex" : 68
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/ManaTombs/boss_nexusprince_shaffar.cpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/ManaTombs/boss_pandemonius.cpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/ManaTombs/boss_tavarok.cpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/ManaTombs/instance_mana_tombs.cpp",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/ManaTombs/mana_tombs.h",
+			"sourceGroupIndex" : 69
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/SethekkHalls/boss_anzu.cpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/SethekkHalls/boss_darkweaver_syth.cpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/SethekkHalls/boss_talon_king_ikiss.cpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/SethekkHalls/instance_sethekk_halls.cpp",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/SethekkHalls/sethekk_halls.h",
+			"sourceGroupIndex" : 70
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/ShadowLabyrinth/boss_ambassador_hellmaw.cpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/ShadowLabyrinth/boss_blackheart_the_inciter.cpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/ShadowLabyrinth/boss_grandmaster_vorpil.cpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/ShadowLabyrinth/boss_murmur.cpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/ShadowLabyrinth/instance_shadow_labyrinth.cpp",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/Auchindoun/ShadowLabyrinth/shadow_labyrinth.h",
+			"sourceGroupIndex" : 71
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/BlackTemple/black_temple.h",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/BlackTemple/boss_bloodboil.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/BlackTemple/boss_illidan.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/BlackTemple/boss_mother_shahraz.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/BlackTemple/boss_reliquary_of_souls.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/BlackTemple/boss_shade_of_akama.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/BlackTemple/boss_supremus.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/BlackTemple/boss_teron_gorefiend.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/BlackTemple/boss_warlord_najentus.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/BlackTemple/illidari_council.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/BlackTemple/instance_black_temple.cpp",
+			"sourceGroupIndex" : 72
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SerpentShrine/boss_fathomlord_karathress.cpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SerpentShrine/boss_hydross_the_unstable.cpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SerpentShrine/boss_lady_vashj.cpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SerpentShrine/boss_leotheras_the_blind.cpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SerpentShrine/boss_lurker_below.cpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SerpentShrine/boss_morogrim_tidewalker.cpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SerpentShrine/instance_serpent_shrine.cpp",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SerpentShrine/serpent_shrine.h",
+			"sourceGroupIndex" : 73
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SlavePens/boss_ahune.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SlavePens/boss_mennu_the_betrayer.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SlavePens/boss_quagmirran.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SlavePens/boss_rokmar_the_crackler.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SlavePens/instance_the_slave_pens.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SlavePens/the_slave_pens.cpp",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SlavePens/the_slave_pens.h",
+			"sourceGroupIndex" : 74
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SteamVault/boss_hydromancer_thespia.cpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SteamVault/boss_mekgineer_steamrigger.cpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SteamVault/boss_warlord_kalithresh.cpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SteamVault/instance_steam_vault.cpp",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/SteamVault/steam_vault.h",
+			"sourceGroupIndex" : 75
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/underbog/boss_ghazan.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/underbog/boss_hungarfen.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/underbog/boss_swamplord_muselek.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/underbog/boss_the_black_stalker.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/underbog/instance_the_underbog.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/underbog/the_underbog.h",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/CoilfangReservoir/underbog/underbog.cpp",
+			"sourceGroupIndex" : 76
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/GruulsLair/boss_gruul.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/GruulsLair/boss_high_king_maulgar.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/GruulsLair/gruuls_lair.h",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/GruulsLair/instance_gruuls_lair.cpp",
+			"sourceGroupIndex" : 77
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/BloodFurnace/blood_furnace.h",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/BloodFurnace/boss_broggok.cpp",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/BloodFurnace/boss_kelidan_the_breaker.cpp",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/BloodFurnace/boss_the_maker.cpp",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/BloodFurnace/instance_blood_furnace.cpp",
+			"sourceGroupIndex" : 78
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/HellfireRamparts/boss_omor_the_unscarred.cpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/HellfireRamparts/boss_vazruden_the_herald.cpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/HellfireRamparts/boss_watchkeeper_gargolmar.cpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/HellfireRamparts/hellfire_ramparts.h",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/HellfireRamparts/instance_hellfire_ramparts.cpp",
+			"sourceGroupIndex" : 79
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/MagtheridonsLair/boss_magtheridon.cpp",
+			"sourceGroupIndex" : 80
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/MagtheridonsLair/instance_magtheridons_lair.cpp",
+			"sourceGroupIndex" : 80
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/MagtheridonsLair/magtheridons_lair.h",
+			"sourceGroupIndex" : 80
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/ShatteredHalls/boss_nethekurse.cpp",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/ShatteredHalls/boss_porung.cpp",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/ShatteredHalls/boss_warbringer_omrogg.cpp",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/ShatteredHalls/boss_warchief_kargath_bladefist.cpp",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/ShatteredHalls/instance_shattered_halls.cpp",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/HellfireCitadel/ShatteredHalls/shattered_halls.h",
+			"sourceGroupIndex" : 81
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/Eye/boss_alar.cpp",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/Eye/boss_astromancer.cpp",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/Eye/boss_kaelthas.cpp",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/Eye/boss_void_reaver.cpp",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/Eye/instance_the_eye.cpp",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/Eye/the_eye.h",
+			"sourceGroupIndex" : 82
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/Mechanar/boss_gatewatcher_gyrokill.cpp",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/Mechanar/boss_gatewatcher_ironhand.cpp",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/Mechanar/boss_mechano_lord_capacitus.cpp",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/Mechanar/boss_nethermancer_sepethrea.cpp",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/Mechanar/boss_pathaleon_the_calculator.cpp",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/Mechanar/instance_mechanar.cpp",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/Mechanar/mechanar.h",
+			"sourceGroupIndex" : 83
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/arcatraz/arcatraz.cpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/arcatraz/arcatraz.h",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/arcatraz/boss_dalliah_the_doomsayer.cpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/arcatraz/boss_harbinger_skyriss.cpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/arcatraz/boss_wrath_scryer_soccothrates.cpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/arcatraz/boss_zereketh_the_unbound.cpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/arcatraz/instance_arcatraz.cpp",
+			"sourceGroupIndex" : 84
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/botanica/boss_commander_sarannis.cpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/botanica/boss_high_botanist_freywinn.cpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/botanica/boss_laj.cpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/botanica/boss_thorngrin_the_tender.cpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/botanica/boss_warp_splinter.cpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/botanica/instance_the_botanica.cpp",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/Outland/TempestKeep/botanica/the_botanica.h",
+			"sourceGroupIndex" : 85
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Pet/pet_dk.cpp",
+			"sourceGroupIndex" : 86
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Pet/pet_generic.cpp",
+			"sourceGroupIndex" : 86
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Pet/pet_hunter.cpp",
+			"sourceGroupIndex" : 86
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Pet/pet_mage.cpp",
+			"sourceGroupIndex" : 86
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Pet/pet_priest.cpp",
+			"sourceGroupIndex" : 86
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Pet/pet_shaman.cpp",
+			"sourceGroupIndex" : 86
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Pet/pets_script_loader.cpp",
+			"sourceGroupIndex" : 86
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spell_dk.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spell_druid.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spell_generic.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spell_hunter.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spell_item.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spell_mage.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spell_paladin.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spell_priest.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spell_quest.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spell_rogue.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spell_shaman.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spell_warlock.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spell_warrior.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/Spells/spells_script_loader.cpp",
+			"sourceGroupIndex" : 87
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/achievement_scripts.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/action_ip_logger.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/areatrigger_scripts.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/boss_emerald_dragons.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/chat_log.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/go_scripts.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/guards.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/item_scripts.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/mob_generic_creature.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/npc_innkeeper.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/npc_professions.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/npc_stave_of_ancients.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/server/scripts/World/npc_stave_of_ancients.h",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/npc_taxi.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/npcs_special.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/player_scripts.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/server_mail.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/server/scripts/World/world_script_loader.cpp",
+			"sourceGroupIndex" : 88
+		},
+		{
+			"backtrace" : 0,
+			"path" : "out/build/x64-Debug/src/server/scripts/CMakeFiles/scripts.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 89
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

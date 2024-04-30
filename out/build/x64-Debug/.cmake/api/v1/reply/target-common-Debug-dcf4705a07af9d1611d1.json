@@ -1,0 +1,2031 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/common/common.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_definitions",
+			"include",
+			"target_include_directories",
+			"target_precompile_headers",
+			"add_cxx_pch"
+		],
+		"files" : 
+		[
+			"src/common/CMakeLists.txt",
+			"src/cmake/showoptions.cmake",
+			"CMakeLists.txt",
+			"src/cmake/macros/FindPCHSupport.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 120,
+				"parent" : 4
+			},
+			{
+				"file" : 1,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 136,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 10
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 /bigobj -MDd"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4351"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4091"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34100"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34101"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34189"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34389"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4996"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4985"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4619"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4512"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4263"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4264"
+				},
+				{
+					"fragment" : "-std:c++20"
+				},
+				{
+					"fragment" : "\"/YcC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/common/CMakeFiles/common.dir/cmake_pch.hxx\" \"/FpC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/common/CMakeFiles/common.dir/./cmake_pch.cxx.pch\" \"/FIC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/common/CMakeFiles/common.dir/cmake_pch.hxx\""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "AC_HAS_BROKEN_WSTRING_REGEX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ASIO_NO_DEPRECATED"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_BIND_NO_PLACEHOLDERS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CHRONO_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_REGEX_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SERIALIZATION_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SYSTEM_USE_UTF8"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ENABLE_VMAP_CHECKS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_CONSTEVAL="
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_LOCALE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_SSE2"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SFMT_MEXP=19937"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_BUILD_DIRECTIVE=\"Debug\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_CONF_DIR=\"C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/install/x64-Debug\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_NONSTDC_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_WIN64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Asio"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Management"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Maps"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Models"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Configuration"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography/Authentication"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/DataStores"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Debugging"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic/LinkedReference"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Encoding"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/IPLocation"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Logging"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Metric"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Navigation"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Platform"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Threading"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Utilities"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/local/boost_1_81_0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/argon2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/SFMT"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/utf8cpp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/fmt/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/g3dlite/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/zlib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/recastnavigation/Detour/Include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 11,
+					"header" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/PrecompiledHeaders/commonPCH.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 /bigobj -MDd"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4351"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4091"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34100"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34101"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34189"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34389"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4996"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4985"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4619"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4512"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4263"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4264"
+				},
+				{
+					"fragment" : "-std:c++20"
+				},
+				{
+					"fragment" : "\"/YuC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/common/CMakeFiles/common.dir/cmake_pch.hxx\" \"/FpC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/common/CMakeFiles/common.dir/./cmake_pch.cxx.pch\" \"/FIC:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/common/CMakeFiles/common.dir/cmake_pch.hxx\""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "AC_HAS_BROKEN_WSTRING_REGEX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ASIO_NO_DEPRECATED"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_BIND_NO_PLACEHOLDERS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CHRONO_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_REGEX_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SERIALIZATION_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SYSTEM_USE_UTF8"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ENABLE_VMAP_CHECKS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_CONSTEVAL="
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_LOCALE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_SSE2"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SFMT_MEXP=19937"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_BUILD_DIRECTIVE=\"Debug\""
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_CONF_DIR=\"C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/install/x64-Debug\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_NONSTDC_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_WIN64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Asio"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Management"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Maps"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Models"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Configuration"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography/Authentication"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/DataStores"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Debugging"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic/LinkedReference"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Encoding"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/IPLocation"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Logging"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Metric"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Navigation"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Platform"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Threading"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Utilities"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug/src/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/local/boost_1_81_0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/argon2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/SFMT"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/utf8cpp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/fmt/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/g3dlite/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/zlib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/recastnavigation/Detour/Include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 11,
+					"header" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/PrecompiledHeaders/commonPCH.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				7,
+				16,
+				19,
+				26,
+				28,
+				30,
+				32,
+				35,
+				37,
+				39,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				61,
+				64,
+				67,
+				69,
+				72,
+				74,
+				86,
+				88,
+				91,
+				93,
+				95,
+				97,
+				99,
+				102,
+				104,
+				106,
+				108,
+				109,
+				110,
+				112,
+				118,
+				120,
+				131,
+				133,
+				141,
+				143,
+				147,
+				150,
+				152,
+				154,
+				156,
+				160,
+				163
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "argon2::@c072c1a31b0c98ace58a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sfmt::@1a52b9e852e5a484adf5"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "fmt::@c1a9231e0206e99398e7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "zlib::@a10f134e8da49500ac3b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Detour::@6e63253b01af92081277"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "g3dlib::@50fdfca79ef561a7d74c"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "server"
+	},
+	"id" : "common::@af79f3804eddddbfa7f1",
+	"name" : "common",
+	"nameOnDisk" : "common.lib",
+	"paths" : 
+	{
+		"build" : "src/common",
+		"source" : "src/common"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		},
+		{
+			"name" : "Asio",
+			"sourceIndexes" : 
+			[
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"name" : "Collision",
+			"sourceIndexes" : 
+			[
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			]
+		},
+		{
+			"name" : "Collision\\Management",
+			"sourceIndexes" : 
+			[
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
+			]
+		},
+		{
+			"name" : "Collision\\Maps",
+			"sourceIndexes" : 
+			[
+				34,
+				35,
+				36,
+				37,
+				38
+			]
+		},
+		{
+			"name" : "Collision\\Models",
+			"sourceIndexes" : 
+			[
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45
+			]
+		},
+		{
+			"name" : "Configuration",
+			"sourceIndexes" : 
+			[
+				46,
+				47,
+				48,
+				49
+			]
+		},
+		{
+			"name" : "Cryptography",
+			"sourceIndexes" : 
+			[
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68
+			]
+		},
+		{
+			"name" : "Cryptography\\Authentication",
+			"sourceIndexes" : 
+			[
+				69,
+				70,
+				71,
+				72,
+				73
+			]
+		},
+		{
+			"name" : "DataStores",
+			"sourceIndexes" : 
+			[
+				74,
+				75
+			]
+		},
+		{
+			"name" : "Dynamic",
+			"sourceIndexes" : 
+			[
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83
+			]
+		},
+		{
+			"name" : "Dynamic\\LinkedReference",
+			"sourceIndexes" : 
+			[
+				84,
+				85
+			]
+		},
+		{
+			"name" : "Encoding",
+			"sourceIndexes" : 
+			[
+				86,
+				87,
+				88,
+				89,
+				90
+			]
+		},
+		{
+			"name" : "IPLocation",
+			"sourceIndexes" : 
+			[
+				91,
+				92
+			]
+		},
+		{
+			"name" : "Logging",
+			"sourceIndexes" : 
+			[
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109
+			]
+		},
+		{
+			"name" : "Metric",
+			"sourceIndexes" : 
+			[
+				110,
+				111
+			]
+		},
+		{
+			"name" : "Navigation",
+			"sourceIndexes" : 
+			[
+				112,
+				113
+			]
+		},
+		{
+			"name" : "Threading",
+			"sourceIndexes" : 
+			[
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122
+			]
+		},
+		{
+			"name" : "Utilities",
+			"sourceIndexes" : 
+			[
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162
+			]
+		},
+		{
+			"name" : "Debugging",
+			"sourceIndexes" : 
+			[
+				163,
+				164
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				165
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/src/common/CMakeFiles/common.dir/cmake_pch.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Banner.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Banner.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Common.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/CompilerDefs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Define.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/GitRevision.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/GitRevision.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Asio/AsioHacksFwd.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Asio/DeadlineTimer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Asio/IoContext.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Asio/IpAddress.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Asio/IpNetwork.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Asio/Resolver.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Asio/Strand.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Collision/BoundingIntervalHierarchy.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/BoundingIntervalHierarchy.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/BoundingIntervalHierarchyWrapper.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Collision/DynamicTree.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/DynamicTree.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/RegularGrid.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/VMapDefinitions.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/VMapTools.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/Management/IMMAPMgr.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/Management/IVMapMgr.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Collision/Management/MMapFactory.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/Management/MMapFactory.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Collision/Management/MMapMgr.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/Management/MMapMgr.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Collision/Management/VMapFactory.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/Management/VMapFactory.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Collision/Management/VMapMgr2.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/Management/VMapMgr2.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/Maps/MapDefines.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Collision/Maps/MapTree.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/Maps/MapTree.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Collision/Maps/TileAssembler.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/Maps/TileAssembler.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Collision/Models/GameObjectModel.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/Models/GameObjectModel.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/Models/ModelIgnoreFlags.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Collision/Models/ModelInstance.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/Models/ModelInstance.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Collision/Models/WorldModel.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Collision/Models/WorldModel.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Configuration/BuiltInConfig.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Configuration/BuiltInConfig.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Configuration/Config.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Configuration/Config.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Cryptography/AES.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/AES.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Cryptography/ARC4.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/ARC4.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Cryptography/Argon2.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/Argon2.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Cryptography/BigNumber.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/BigNumber.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/CryptoConstants.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/CryptoGenerics.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/CryptoHash.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Cryptography/CryptoRandom.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/CryptoRandom.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/HMAC.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Cryptography/OpenSSLCrypto.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/OpenSSLCrypto.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/SessionKeyGenerator.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Cryptography/TOTP.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/TOTP.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Cryptography/Authentication/AuthCrypt.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/Authentication/AuthCrypt.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/Authentication/AuthDefines.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Cryptography/Authentication/SRP6.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Cryptography/Authentication/SRP6.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/DataStores/DBCFileLoader.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/DataStores/DBCFileLoader.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Dynamic/FactoryHolder.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Dynamic/LinkedList.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Dynamic/ObjectRegistry.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Dynamic/TypeContainer.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Dynamic/TypeContainerFunctions.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Dynamic/TypeContainerFunctionsPtr.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Dynamic/TypeContainerVisitor.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Dynamic/TypeList.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Dynamic/LinkedReference/RefMgr.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Dynamic/LinkedReference/Reference.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Encoding/Base32.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Encoding/Base32.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Encoding/Base64.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Encoding/Base64.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Encoding/BaseEncoding.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/IPLocation/IPLocation.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/IPLocation/IPLocation.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Logging/Appender.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Logging/Appender.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Logging/AppenderConsole.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Logging/AppenderConsole.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Logging/AppenderFile.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Logging/AppenderFile.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Logging/Log.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Logging/Log.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Logging/LogCommon.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Logging/LogMessage.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Logging/LogMessage.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Logging/LogOperation.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Logging/LogOperation.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Logging/Logger.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Logging/Logger.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Logging/enuminfo_AppenderConsole.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Logging/enuminfo_LogCommon.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Metric/Metric.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Metric/Metric.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Navigation/DetourExtended.cpp",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Navigation/DetourExtended.h",
+			"sourceGroupIndex" : 17
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Threading/LockedQueue.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Threading/MPSCQueue.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Threading/PCQueue.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Threading/PolicyLock.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Threading/ProcessPriority.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Threading/ProcessPriority.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Threading/Threading.cpp",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Threading/Threading.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Threading/ThreadingModel.h",
+			"sourceGroupIndex" : 18
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/AsyncCallbackProcessor.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/ByteConverter.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/CircularBuffer.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/Containers.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/DataMap.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/Duration.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/EnumFlag.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/EventEmitter.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Utilities/EventMap.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/EventMap.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Utilities/EventProcessor.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/EventProcessor.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/Geometry.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/IteratorPair.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/MathUtil.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/MessageBuffer.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/Optional.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/Physics.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Utilities/Random.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/Random.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Utilities/SFMTRand.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/SFMTRand.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/SignalHandler.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/SmartEnum.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Utilities/StartProcess.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/StartProcess.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/StringConvert.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Utilities/StringFormat.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/StringFormat.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Utilities/TaskScheduler.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/TaskScheduler.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Utilities/Timer.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/Timer.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Utilities/Tokenize.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/Tokenize.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/Tuples.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/Types.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Utilities/Util.cpp",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/Util.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Utilities/advstd.h",
+			"sourceGroupIndex" : 19
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/common/Debugging/Errors.cpp",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/common/Debugging/Errors.h",
+			"sourceGroupIndex" : 20
+		},
+		{
+			"backtrace" : 0,
+			"path" : "out/build/x64-Debug/src/common/CMakeFiles/common.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 21
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

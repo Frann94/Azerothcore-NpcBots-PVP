@@ -1,0 +1,1122 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "modules/modules.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_definitions",
+			"include",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"modules/CMakeLists.txt",
+			"src/cmake/showoptions.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 275,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 280,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 120,
+				"parent" : 3
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 136,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 286,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 /bigobj -MDd"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/utf-8"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4351"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4091"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34100"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34101"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34189"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/w34389"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4996"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4985"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4619"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4512"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4263"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/we4264"
+				},
+				{
+					"fragment" : "-std:c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "AC_HAS_BROKEN_WSTRING_REGEX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ASIO_NO_DEPRECATED"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_BIND_NO_PLACEHOLDERS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CHRONO_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_REGEX_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SERIALIZATION_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SYSTEM_USE_UTF8"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ENABLE_VMAP_CHECKS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_CONSTEVAL="
+				},
+				{
+					"backtrace" : 2,
+					"define" : "FMT_LOCALE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_SSE2"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SFMT_MEXP=19937"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_BUILD_DIRECTIVE=\"Debug\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "_CONF_DIR=\"C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/install/x64-Debug\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_NONSTDC_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_WIN64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/modules"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/modules/mod-dungeonmaster/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/modules/mod-learn-spells/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/modules/mod-multi-vendor/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/modules/mod-npc-enchanter/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/modules/mod-npc-free-professions/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/modules/mod-npc-services/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/modules/mod-npc-talent-template/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/modules/mod-skip-dk-starting-area/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/modules/mod-transmog/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/CoreAI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/NpcBots"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/NpcBots/lib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/ScriptedAI"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AI/SmartScripts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Accounts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Achievements"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Addons"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/ArenaSpectator"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/AuctionHouse"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Autobroadcast"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlefield"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlefield/Zones"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlegrounds"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Battlegrounds/Zones"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Cache"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Calendar"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat/Channels"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Chat/ChatCommands"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Combat"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Conditions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/DungeonFinding"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Corpse"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Creature"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/DynamicObject"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/GameObject"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Item"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Item/Container"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Object"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Object/Updates"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Pet"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Player"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Totem"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Transport"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Unit"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Entities/Vehicle"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Events"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Globals"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids/Cells"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Grids/Notifiers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Groups"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Guilds"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Handlers"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Instances"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Loot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Mails"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Maps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Misc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Miscellaneous"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Modules"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Motd"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/MovementGenerators"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/Spline"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Movement/Waypoints"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/OutdoorPvP"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Petitions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Pools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Quests"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Reputation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Scripting"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Scripting/ScriptDefines"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server/Packets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Server/Protocol"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Skills"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Spells"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Spells/Auras"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Texts"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Tickets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Time"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Tools"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Warden"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Warden/Modules"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/Weather"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/game/World"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Network"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Packets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Realms"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/shared/Secrets"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Database"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Database/Implementation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Logging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/server/database/Updater"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Asio"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Management"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Maps"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Collision/Models"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Configuration"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Cryptography/Authentication"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/DataStores"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Debugging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Dynamic/LinkedReference"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Encoding"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/IPLocation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Logging"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Metric"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Navigation"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Platform"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Threading"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/src/common/Utilities"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/local/boost_1_81_0"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/argon2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/SFMT"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/utf8cpp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/fmt/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/g3dlite/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/zlib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/deps/recastnavigation/Detour/Include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Program Files/OpenSSL-Win64/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				14,
+				15,
+				17,
+				18,
+				19,
+				20,
+				22,
+				23,
+				24
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "argon2::@c072c1a31b0c98ace58a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sfmt::@1a52b9e852e5a484adf5"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "fmt::@c1a9231e0206e99398e7"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "zlib::@a10f134e8da49500ac3b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Detour::@6e63253b01af92081277"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "g3dlib::@50fdfca79ef561a7d74c"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "common::@af79f3804eddddbfa7f1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "database::@f0cb456b49017b16757b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "shared::@c6c548c1b6416905cf8a"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "modules"
+	},
+	"id" : "modules::@9b7b1f9db13f92153135",
+	"name" : "modules",
+	"nameOnDisk" : "modules.lib",
+	"paths" : 
+	{
+		"build" : "modules",
+		"source" : "modules"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "mod-dungeonmaster\\src",
+			"sourceIndexes" : 
+			[
+				2,
+				3
+			]
+		},
+		{
+			"name" : "mod-learn-spells\\src",
+			"sourceIndexes" : 
+			[
+				4,
+				5
+			]
+		},
+		{
+			"name" : "mod-multi-vendor\\src",
+			"sourceIndexes" : 
+			[
+				6,
+				7
+			]
+		},
+		{
+			"name" : "mod-npc-enchanter\\src",
+			"sourceIndexes" : 
+			[
+				8,
+				9
+			]
+		},
+		{
+			"name" : "mod-npc-free-professions\\src",
+			"sourceIndexes" : 
+			[
+				10,
+				11
+			]
+		},
+		{
+			"name" : "mod-npc-services\\src",
+			"sourceIndexes" : 
+			[
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"name" : "mod-npc-talent-template\\src",
+			"sourceIndexes" : 
+			[
+				15,
+				16,
+				17
+			]
+		},
+		{
+			"name" : "mod-skip-dk-starting-area\\src",
+			"sourceIndexes" : 
+			[
+				18,
+				19
+			]
+		},
+		{
+			"name" : "mod-transmog\\src",
+			"sourceIndexes" : 
+			[
+				20,
+				21,
+				22,
+				23,
+				24
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "modules/ModulesScriptLoader.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-Debug/modules/gen_scriptloader/static/ModulesLoader.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-dungeonmaster/src/DM_loader.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-dungeonmaster/src/Dungeonmaster.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-learn-spells/src/LS_loader.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-learn-spells/src/mod_learnspells.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-multi-vendor/src/MultiVendor.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-multi-vendor/src/loader.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-npc-enchanter/src/NE_loader.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-npc-enchanter/src/npc_enchanter.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-npc-free-professions/src/ProfessionNPC.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-npc-free-professions/src/ProfessionNPC_loader.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-npc-services/src/npc_services.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modules/mod-npc-services/src/npc_services.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-npc-services/src/ns_loader.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-npc-talent-template/src/TemplateNPC.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modules/mod-npc-talent-template/src/TemplateNPC.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-npc-talent-template/src/template_scripts_loader.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-skip-dk-starting-area/src/SkipDK.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-skip-dk-starting-area/src/loader.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-transmog/src/Transmogrification.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"path" : "modules/mod-transmog/src/Transmogrification.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-transmog/src/cs_transmog.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-transmog/src/transmog_loader.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "modules/mod-transmog/src/transmog_scripts.cpp",
+			"sourceGroupIndex" : 10
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

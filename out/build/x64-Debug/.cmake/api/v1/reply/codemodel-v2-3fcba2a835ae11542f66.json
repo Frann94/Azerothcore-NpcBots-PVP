@@ -1,0 +1,647 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						20,
+						21,
+						29
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "deps",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						17,
+						18,
+						19
+					],
+					"jsonFile" : "directory-deps-Debug-daa91dd17ee23792cad4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "deps"
+				},
+				{
+					"build" : "deps/SFMT",
+					"jsonFile" : "directory-deps.SFMT-Debug-87a60ebbafdb9712fcef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/SFMT",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "deps/argon2",
+					"jsonFile" : "directory-deps.argon2-Debug-983ea88fcbe1b1610262.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/argon2",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "deps/boost",
+					"jsonFile" : "directory-deps.boost-Debug-74f9e9decc10fe22a428.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/boost"
+				},
+				{
+					"build" : "deps/fmt",
+					"jsonFile" : "directory-deps.fmt-Debug-d18fc91b01ebc04994fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/fmt",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "deps/jemalloc",
+					"jsonFile" : "directory-deps.jemalloc-Debug-429e486494aeefd30c0d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/jemalloc"
+				},
+				{
+					"build" : "deps/openssl",
+					"jsonFile" : "directory-deps.openssl-Debug-f8026972da45b3c8f7c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/openssl"
+				},
+				{
+					"build" : "deps/stdfs",
+					"jsonFile" : "directory-deps.stdfs-Debug-5528bf2fe1a248022cbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/stdfs"
+				},
+				{
+					"build" : "deps/threads",
+					"jsonFile" : "directory-deps.threads-Debug-7b8279c66207a01a5d08.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/threads"
+				},
+				{
+					"build" : "deps/utf8cpp",
+					"jsonFile" : "directory-deps.utf8cpp-Debug-4e3e6c6718d2aff7dcfe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/utf8cpp"
+				},
+				{
+					"build" : "deps/mysql",
+					"jsonFile" : "directory-deps.mysql-Debug-631a530d425410a7d0d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/mysql"
+				},
+				{
+					"build" : "deps/zlib",
+					"jsonFile" : "directory-deps.zlib-Debug-39f33170f6cec7b402fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/zlib",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "deps/g3dlite",
+					"jsonFile" : "directory-deps.g3dlite-Debug-14dda79cea6a56a209b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/g3dlite",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "deps/recastnavigation",
+					"childIndexes" : 
+					[
+						15,
+						16
+					],
+					"jsonFile" : "directory-deps.recastnavigation-Debug-4cdfdb9a5485538f9e32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/recastnavigation"
+				},
+				{
+					"build" : "deps/recastnavigation/Detour",
+					"jsonFile" : "directory-deps.recastnavigation.Detour-Debug-4791954c0a644195abca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 0,
+					"source" : "deps/recastnavigation/Detour",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "deps/recastnavigation/Recast",
+					"jsonFile" : "directory-deps.recastnavigation.Recast-Debug-a91a31dfdcc45025423a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 14,
+					"projectIndex" : 0,
+					"source" : "deps/recastnavigation/Recast",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "deps/readline",
+					"jsonFile" : "directory-deps.readline-Debug-bbcf2113e55bf44ab6d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/readline"
+				},
+				{
+					"build" : "deps/gsoap",
+					"jsonFile" : "directory-deps.gsoap-Debug-c2514c8faf6b31aa5e92.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/gsoap",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "deps/gperftools",
+					"jsonFile" : "directory-deps.gperftools-Debug-80950356f7ea362db5cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "deps/gperftools"
+				},
+				{
+					"build" : "src/common",
+					"jsonFile" : "directory-src.common-Debug-1d412c5c23197603dd39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/common",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						22,
+						23
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/genrev",
+					"jsonFile" : "directory-src.genrev-Debug-90991251f34afe5be8b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 0,
+					"source" : "src/genrev",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "src/server",
+					"childIndexes" : 
+					[
+						24,
+						25,
+						26,
+						27,
+						28
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.server-Debug-0060d0c68a017a1e8304.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 0,
+					"source" : "src/server"
+				},
+				{
+					"build" : "src/server/apps",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.server.apps-Debug-04e2917e9253a9a572b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 23,
+					"projectIndex" : 0,
+					"source" : "src/server/apps",
+					"targetIndexes" : 
+					[
+						3,
+						15
+					]
+				},
+				{
+					"build" : "src/server/database",
+					"jsonFile" : "directory-src.server.database-Debug-6f7e576e9cb65982f8c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 23,
+					"projectIndex" : 0,
+					"source" : "src/server/database",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/server/shared",
+					"jsonFile" : "directory-src.server.shared-Debug-5f061451196bce6a7fe2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 23,
+					"projectIndex" : 0,
+					"source" : "src/server/shared",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "src/server/game",
+					"jsonFile" : "directory-src.server.game-Debug-a830a300e4c5f18f251d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 23,
+					"projectIndex" : 0,
+					"source" : "src/server/game",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src/server/scripts",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.server.scripts-Debug-58811307706768003e51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 23,
+					"projectIndex" : 0,
+					"source" : "src/server/scripts",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "modules",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-modules-Debug-558428b866eba6859323.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "modules",
+					"targetIndexes" : 
+					[
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					],
+					"name" : "AzerothCore",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 15,
+					"id" : "Detour::@6e63253b01af92081277",
+					"jsonFile" : "target-Detour-Debug-bf2f8a0e679283cafacd.json",
+					"name" : "Detour",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "Recast::@042e8338a6b2bbaeee5c",
+					"jsonFile" : "target-Recast-Debug-1ca4eb4ad14ce871751c.json",
+					"name" : "Recast",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "argon2::@c072c1a31b0c98ace58a",
+					"jsonFile" : "target-argon2-Debug-78ec3e9a3c0890bf3601.json",
+					"name" : "argon2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "authserver::@8b519e151a965614fa62",
+					"jsonFile" : "target-authserver-Debug-7bb467ee1456fab1bca2.json",
+					"name" : "authserver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "common::@af79f3804eddddbfa7f1",
+					"jsonFile" : "target-common-Debug-dcf4705a07af9d1611d1.json",
+					"name" : "common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "database::@f0cb456b49017b16757b",
+					"jsonFile" : "target-database-Debug-3f3c2f9fdd7c3e036aea.json",
+					"name" : "database",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fmt::@c1a9231e0206e99398e7",
+					"jsonFile" : "target-fmt-Debug-0781e82ce0a19263c955.json",
+					"name" : "fmt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "g3dlib::@50fdfca79ef561a7d74c",
+					"jsonFile" : "target-g3dlib-Debug-ae2fa2df38d3384977a1.json",
+					"name" : "g3dlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "game::@e4319039333d31efef86",
+					"jsonFile" : "target-game-Debug-61f3a1ee189e5e3702c7.json",
+					"name" : "game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "gsoap::@49c9e63f5f9dd59660a9",
+					"jsonFile" : "target-gsoap-Debug-1ad8cd9d7bb11e768c88.json",
+					"name" : "gsoap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "modules::@9b7b1f9db13f92153135",
+					"jsonFile" : "target-modules-Debug-ab0c8c912b6bd8ebb8e9.json",
+					"name" : "modules",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "revision.h::@c11e494196f9756d45d4",
+					"jsonFile" : "target-revision.h-Debug-bbdd59a1d80ba554e3a2.json",
+					"name" : "revision.h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "scripts::@80ecf2aa53e79a4e1ae2",
+					"jsonFile" : "target-scripts-Debug-6ee8f3a4610b43dd0369.json",
+					"name" : "scripts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sfmt::@1a52b9e852e5a484adf5",
+					"jsonFile" : "target-sfmt-Debug-aca4c7dcd97c1fe2595f.json",
+					"name" : "sfmt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "shared::@c6c548c1b6416905cf8a",
+					"jsonFile" : "target-shared-Debug-ef6e5b64b767d2bac801.json",
+					"name" : "shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "worldserver::@8b519e151a965614fa62",
+					"jsonFile" : "target-worldserver-Debug-970a71e19939d794cde2.json",
+					"name" : "worldserver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "zlib::@a10f134e8da49500ac3b",
+					"jsonFile" : "target-zlib-Debug-e9ee3b7fbe48c7c0c352.json",
+					"name" : "zlib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build/out/build/x64-Debug",
+		"source" : "C:/Users/Fran/Desktop/Fran/Games/WoW Server/Azerothcore_build"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
