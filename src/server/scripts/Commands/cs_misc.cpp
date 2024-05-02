@@ -197,7 +197,7 @@ public:
                 relentlessChance = 30;
             }
         }
-        LOG_ERROR("", "WrathChance: {} - RelentlessChance: {}", wrathfulChance, relentlessChance);
+        LOG_DEBUG("", "WrathChance: {} - RelentlessChance: {}", wrathfulChance, relentlessChance);
         sBotGen->setGearChances(wrathfulChance, relentlessChance);
 
         return true;
