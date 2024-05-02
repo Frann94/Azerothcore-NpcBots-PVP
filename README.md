@@ -31,8 +31,12 @@ Usage: `.skirmish [arena] [XvX] [Nick1] [Nick2] ... [NickN]`
 "[XvX] can be 1v1, 2v2, 3v3, 5v5. After [XvX] specify enough nicknames for that mode
 
 **Example Usage**:
-        - `.skirmish all 1v1 Frann bot1`: Player "Frann" will go into an arena against an Arms Warrior (Wander NpcBot) in any of the possible arenas
-        - `.skirmish NA,RL 3v3 bot6 bot8 bot13 bot30 John Frann`: A Resto Druid Wander Npcbot, players "Frann" and "John" will face against a Ret Pally, a MM Hunter and a Disc Priest (all are wander npcbots) in the Nagrand or the Ruins of Lordaeron arena
+
+- `.skirmish all 1v1 Frann bot1`: 
+Player "Frann" will go into an arena against an Arms Warrior (Wander NpcBot) in any of the possible arenas
+        
+- `.skirmish NA,RL 3v3 bot6 bot8 bot13 bot30 John Frann`: 
+A Resto Druid Wander Npcbot, players "Frann" and "John" will face against a Ret Pally, a MM Hunter and a Disc Priest (all are wander npcbots) in the Nagrand or the Ruins of Lordaeron arena
 
 Here is the list of class/spec reference for npcbots:
 - bot1, 1, WARRIOR_ARMS
@@ -76,8 +80,12 @@ By default, there is a 10% chance that bots will get wrathful gear (264+ ilvl), 
 Usage: `.botgear [Wrathful%] [Relentless%]`
 
 **Example Usage**:
-        - `.botgear 15 35`: It will set wrathful chances to 15%, relentless chances to 35% and furious to 50%
-        - `.botgear 0 0`: Wander NpcBot will only use Furious gear
+
+- `.botgear 15 35`: 
+ It will set wrathful chances to 15%, relentless chances to 35% and furious to 50%
+
+- `.botgear 0 0`:
+ Wander NpcBot will only use Furious gear
 
         
 ---------------------------------------
