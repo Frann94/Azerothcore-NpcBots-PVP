@@ -153,8 +153,8 @@ struct TSpellSummary
 extern TSpellSummary* SpellSummary;
 
 // Fran: handle gear chances
-static uint16 wrathfulChance;
-static uint16 relentlessChance;
+static uint16 wrathfulChance = 10;
+static uint16 relentlessChance = 30;
 static uint8 specNumber;
 static bool isForcedSpec = false;
 
