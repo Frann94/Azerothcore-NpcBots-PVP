@@ -4,7 +4,7 @@ This is a WIP project and also done for my own lan server (just 3 people play on
 
 ---------------------------------------
 ## Introduction
-This repo contains a some changes to improve the PVP experience with NPCBOTS (created by @trickerer)
+This repo contains some changes to improve the PVP experience with NPCBOTS (created by @trickerer)
 
 It creates waypoints for all arenas, wander npcbot equipment logic is improved and has 3 gear tiers (furious, relentless and wrathful) and a logic to have balanced team compositions in bg/arenas
 
@@ -104,7 +104,7 @@ Here are the files I changed:
 
 **cs_misc.cpp**: Added `.botgear` command and modified the `.skirmish` command
 
-**botdatamgr.cpp**: Changes to force class/spec for the .skirmish command and team compositions
+**botdatamgr.cpp**: Changes to force class/spec for the `.skirmish` command and team compositions
 
 **bot_ai.cpp**: Changes on the equipment logic
 
